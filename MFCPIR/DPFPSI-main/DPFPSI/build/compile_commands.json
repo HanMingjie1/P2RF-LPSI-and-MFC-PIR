@@ -1,0 +1,80 @@
+[
+{
+  "directory": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -DREDUCED_LINEAR_LAYER -DREDUCED_LINEAR_LAYER_NEXT -DWITH_AVX2 -DWITH_LOWMC_128_128_192 -DWITH_LOWMC_128_128_208 -DWITH_LOWMC_128_128_21 -DWITH_LOWMC_128_128_23 -DWITH_LOWMC_128_128_287 -DWITH_LOWMC_128_128_32 -DWITH_OPT -DWITH_SSE2 -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -Wall -Wextra -march=native -mtune=native -O3 -fomit-frame-pointer -o CMakeFiles/lowmc.dir/aligned_alloc.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/aligned_alloc.c",
+  "file": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/aligned_alloc.c",
+  "output": "mobile_psi_cpp/droidCrypto/lowmc/CMakeFiles/lowmc.dir/aligned_alloc.c.o"
+},
+{
+  "directory": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -DREDUCED_LINEAR_LAYER -DREDUCED_LINEAR_LAYER_NEXT -DWITH_AVX2 -DWITH_LOWMC_128_128_192 -DWITH_LOWMC_128_128_208 -DWITH_LOWMC_128_128_21 -DWITH_LOWMC_128_128_23 -DWITH_LOWMC_128_128_287 -DWITH_LOWMC_128_128_32 -DWITH_OPT -DWITH_SSE2 -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -Wall -Wextra -march=native -mtune=native -O3 -fomit-frame-pointer -o CMakeFiles/lowmc.dir/cpu.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cpu.c",
+  "file": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cpu.c",
+  "output": "mobile_psi_cpp/droidCrypto/lowmc/CMakeFiles/lowmc.dir/cpu.c.o"
+},
+{
+  "directory": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -DREDUCED_LINEAR_LAYER -DREDUCED_LINEAR_LAYER_NEXT -DWITH_AVX2 -DWITH_LOWMC_128_128_192 -DWITH_LOWMC_128_128_208 -DWITH_LOWMC_128_128_21 -DWITH_LOWMC_128_128_23 -DWITH_LOWMC_128_128_287 -DWITH_LOWMC_128_128_32 -DWITH_OPT -DWITH_SSE2 -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -Wall -Wextra -march=native -mtune=native -O3 -fomit-frame-pointer -o CMakeFiles/lowmc.dir/io.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/io.c",
+  "file": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/io.c",
+  "output": "mobile_psi_cpp/droidCrypto/lowmc/CMakeFiles/lowmc.dir/io.c.o"
+},
+{
+  "directory": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -DREDUCED_LINEAR_LAYER -DREDUCED_LINEAR_LAYER_NEXT -DWITH_AVX2 -DWITH_LOWMC_128_128_192 -DWITH_LOWMC_128_128_208 -DWITH_LOWMC_128_128_21 -DWITH_LOWMC_128_128_23 -DWITH_LOWMC_128_128_287 -DWITH_LOWMC_128_128_32 -DWITH_OPT -DWITH_SSE2 -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -Wall -Wextra -march=native -mtune=native -O3 -fomit-frame-pointer -o CMakeFiles/lowmc.dir/lowmc.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc.c",
+  "file": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc.c",
+  "output": "mobile_psi_cpp/droidCrypto/lowmc/CMakeFiles/lowmc.dir/lowmc.c.o"
+},
+{
+  "directory": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -DREDUCED_LINEAR_LAYER -DREDUCED_LINEAR_LAYER_NEXT -DWITH_AVX2 -DWITH_LOWMC_128_128_192 -DWITH_LOWMC_128_128_208 -DWITH_LOWMC_128_128_21 -DWITH_LOWMC_128_128_23 -DWITH_LOWMC_128_128_287 -DWITH_LOWMC_128_128_32 -DWITH_OPT -DWITH_SSE2 -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -Wall -Wextra -march=native -mtune=native -O3 -fomit-frame-pointer -o CMakeFiles/lowmc.dir/lowmc_pars.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_pars.c",
+  "file": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_pars.c",
+  "output": "mobile_psi_cpp/droidCrypto/lowmc/CMakeFiles/lowmc.dir/lowmc_pars.c.o"
+},
+{
+  "directory": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -DREDUCED_LINEAR_LAYER -DREDUCED_LINEAR_LAYER_NEXT -DWITH_AVX2 -DWITH_LOWMC_128_128_192 -DWITH_LOWMC_128_128_208 -DWITH_LOWMC_128_128_21 -DWITH_LOWMC_128_128_23 -DWITH_LOWMC_128_128_287 -DWITH_LOWMC_128_128_32 -DWITH_OPT -DWITH_SSE2 -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -Wall -Wextra -march=native -mtune=native -O3 -fomit-frame-pointer -o CMakeFiles/lowmc.dir/lowmc_128_128_21.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_128_128_21.c",
+  "file": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_128_128_21.c",
+  "output": "mobile_psi_cpp/droidCrypto/lowmc/CMakeFiles/lowmc.dir/lowmc_128_128_21.c.o"
+},
+{
+  "directory": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -DREDUCED_LINEAR_LAYER -DREDUCED_LINEAR_LAYER_NEXT -DWITH_AVX2 -DWITH_LOWMC_128_128_192 -DWITH_LOWMC_128_128_208 -DWITH_LOWMC_128_128_21 -DWITH_LOWMC_128_128_23 -DWITH_LOWMC_128_128_287 -DWITH_LOWMC_128_128_32 -DWITH_OPT -DWITH_SSE2 -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -Wall -Wextra -march=native -mtune=native -O3 -fomit-frame-pointer -o CMakeFiles/lowmc.dir/lowmc_128_128_23.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_128_128_23.c",
+  "file": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_128_128_23.c",
+  "output": "mobile_psi_cpp/droidCrypto/lowmc/CMakeFiles/lowmc.dir/lowmc_128_128_23.c.o"
+},
+{
+  "directory": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -DREDUCED_LINEAR_LAYER -DREDUCED_LINEAR_LAYER_NEXT -DWITH_AVX2 -DWITH_LOWMC_128_128_192 -DWITH_LOWMC_128_128_208 -DWITH_LOWMC_128_128_21 -DWITH_LOWMC_128_128_23 -DWITH_LOWMC_128_128_287 -DWITH_LOWMC_128_128_32 -DWITH_OPT -DWITH_SSE2 -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -Wall -Wextra -march=native -mtune=native -O3 -fomit-frame-pointer -o CMakeFiles/lowmc.dir/lowmc_128_128_32.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_128_128_32.c",
+  "file": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_128_128_32.c",
+  "output": "mobile_psi_cpp/droidCrypto/lowmc/CMakeFiles/lowmc.dir/lowmc_128_128_32.c.o"
+},
+{
+  "directory": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -DREDUCED_LINEAR_LAYER -DREDUCED_LINEAR_LAYER_NEXT -DWITH_AVX2 -DWITH_LOWMC_128_128_192 -DWITH_LOWMC_128_128_208 -DWITH_LOWMC_128_128_21 -DWITH_LOWMC_128_128_23 -DWITH_LOWMC_128_128_287 -DWITH_LOWMC_128_128_32 -DWITH_OPT -DWITH_SSE2 -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -Wall -Wextra -march=native -mtune=native -O3 -fomit-frame-pointer -o CMakeFiles/lowmc.dir/lowmc_128_128_192.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_128_128_192.c",
+  "file": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_128_128_192.c",
+  "output": "mobile_psi_cpp/droidCrypto/lowmc/CMakeFiles/lowmc.dir/lowmc_128_128_192.c.o"
+},
+{
+  "directory": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -DREDUCED_LINEAR_LAYER -DREDUCED_LINEAR_LAYER_NEXT -DWITH_AVX2 -DWITH_LOWMC_128_128_192 -DWITH_LOWMC_128_128_208 -DWITH_LOWMC_128_128_21 -DWITH_LOWMC_128_128_23 -DWITH_LOWMC_128_128_287 -DWITH_LOWMC_128_128_32 -DWITH_OPT -DWITH_SSE2 -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -Wall -Wextra -march=native -mtune=native -O3 -fomit-frame-pointer -o CMakeFiles/lowmc.dir/lowmc_128_128_208.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_128_128_208.c",
+  "file": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_128_128_208.c",
+  "output": "mobile_psi_cpp/droidCrypto/lowmc/CMakeFiles/lowmc.dir/lowmc_128_128_208.c.o"
+},
+{
+  "directory": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -DREDUCED_LINEAR_LAYER -DREDUCED_LINEAR_LAYER_NEXT -DWITH_AVX2 -DWITH_LOWMC_128_128_192 -DWITH_LOWMC_128_128_208 -DWITH_LOWMC_128_128_21 -DWITH_LOWMC_128_128_23 -DWITH_LOWMC_128_128_287 -DWITH_LOWMC_128_128_32 -DWITH_OPT -DWITH_SSE2 -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -Wall -Wextra -march=native -mtune=native -O3 -fomit-frame-pointer -o CMakeFiles/lowmc.dir/lowmc_128_128_287.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_128_128_287.c",
+  "file": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_128_128_287.c",
+  "output": "mobile_psi_cpp/droidCrypto/lowmc/CMakeFiles/lowmc.dir/lowmc_128_128_287.c.o"
+},
+{
+  "directory": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -DREDUCED_LINEAR_LAYER -DREDUCED_LINEAR_LAYER_NEXT -DWITH_AVX2 -DWITH_LOWMC_128_128_192 -DWITH_LOWMC_128_128_208 -DWITH_LOWMC_128_128_21 -DWITH_LOWMC_128_128_23 -DWITH_LOWMC_128_128_287 -DWITH_LOWMC_128_128_32 -DWITH_OPT -DWITH_SSE2 -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -Wall -Wextra -march=native -mtune=native -O3 -fomit-frame-pointer -o CMakeFiles/lowmc.dir/lowmc_256_256_537.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_256_256_537.c",
+  "file": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/lowmc_256_256_537.c",
+  "output": "mobile_psi_cpp/droidCrypto/lowmc/CMakeFiles/lowmc.dir/lowmc_256_256_537.c.o"
+},
+{
+  "directory": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc",
+  "command": "/usr/bin/cc -DHAVE_CONFIG_H -DREDUCED_LINEAR_LAYER -DREDUCED_LINEAR_LAYER_NEXT -DWITH_AVX2 -DWITH_LOWMC_128_128_192 -DWITH_LOWMC_128_128_208 -DWITH_LOWMC_128_128_21 -DWITH_LOWMC_128_128_23 -DWITH_LOWMC_128_128_287 -DWITH_LOWMC_128_128_32 -DWITH_OPT -DWITH_SSE2 -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/mobile_psi_cpp/droidCrypto/lowmc -I/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc -O3 -DNDEBUG -std=gnu11 -fPIC -fvisibility=hidden -Wall -Wextra -march=native -mtune=native -O3 -fomit-frame-pointer -o CMakeFiles/lowmc.dir/mzd_additional.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/mzd_additional.c",
+  "file": "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/mzd_additional.c",
+  "output": "mobile_psi_cpp/droidCrypto/lowmc/CMakeFiles/lowmc.dir/mzd_additional.c.o"
+}
+]

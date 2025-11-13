@@ -1,0 +1,1935 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineSystem.cmake:233 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Linux - 6.14.0-32-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/3.28.3/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/3.28.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-3tEkiK"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-3tEkiK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-3tEkiK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_37d67/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_37d67.dir/build.make CMakeFiles/cmTC_37d67.dir/build
+        gmake[1]: Entering directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-3tEkiK'
+        Building C object CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_37d67.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_37d67.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccJS89Ju.s
+        GNU C17 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.5.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.5.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 6c85bb811dd1245e341730876e9ca5f9
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_37d67.dir/'
+         as -v --64 -o CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o /tmp/ccJS89Ju.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_37d67
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37d67.dir/link.txt --verbose=1
+        /usr/bin/cc  -v CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o -o cmTC_37d67 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_37d67' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_37d67.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGGAp72.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_37d67 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_37d67' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_37d67.'
+        gmake[1]: Leaving directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-3tEkiK'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-3tEkiK']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_37d67/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_37d67.dir/build.make CMakeFiles/cmTC_37d67.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-3tEkiK']
+        ignore line: [Building C object CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_37d67.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.28/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_37d67.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccJS89Ju.s]
+        ignore line: [GNU C17 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.5.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.5.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 6c85bb811dd1245e341730876e9ca5f9]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_37d67.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o /tmp/ccJS89Ju.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_37d67]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_37d67.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -v CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o -o cmTC_37d67 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_37d67' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_37d67.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGGAp72.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_37d67 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccGGAp72.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_37d67] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [CMakeFiles/cmTC_37d67.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:57 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-fuk1cG"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-fuk1cG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-fuk1cG'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_02886/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_02886.dir/build.make CMakeFiles/cmTC_02886.dir/build
+        gmake[1]: Entering directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-fuk1cG'
+        Building CXX object CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02886.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_02886.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cceEJXhQ.s
+        GNU C++17 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.5.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/11
+         /usr/include/x86_64-linux-gnu/c++/11
+         /usr/include/c++/11/backward
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++17 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.5.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: e95d0d86d650030a4287bb0b2bab968d
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02886.dir/'
+         as -v --64 -o CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o /tmp/cceEJXhQ.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_02886
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02886.dir/link.txt --verbose=1
+        /usr/bin/c++  -v CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_02886 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_02886' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_02886.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccb0t0Zv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_02886 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_02886' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_02886.'
+        gmake[1]: Leaving directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-fuk1cG'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:127 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/11]
+          add: [/usr/include/x86_64-linux-gnu/c++/11]
+          add: [/usr/include/c++/11/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/11] ==> [/usr/include/c++/11]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/11] ==> [/usr/include/x86_64-linux-gnu/c++/11]
+        collapse include dir [/usr/include/c++/11/backward] ==> [/usr/include/c++/11/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/11/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/11/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/11;/usr/include/x86_64-linux-gnu/c++/11;/usr/include/c++/11/backward;/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerABI.cmake:159 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-fuk1cG']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_02886/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_02886.dir/build.make CMakeFiles/cmTC_02886.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-fuk1cG']
+        ignore line: [Building CXX object CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02886.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.28/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_02886.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cceEJXhQ.s]
+        ignore line: [GNU C++17 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.5.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/11]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+        ignore line: [ /usr/include/c++/11/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.5.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: e95d0d86d650030a4287bb0b2bab968d]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02886.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o /tmp/cceEJXhQ.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_02886]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02886.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -v CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_02886 ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_02886' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_02886.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccb0t0Zv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_02886 /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccb0t0Zv.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_02886] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [CMakeFiles/cmTC_02886.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "cmake/DetectArch.cmake:30 (check_cxx_source_runs)"
+      - "CMakeLists.txt:83 (include)"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-5Dzmsa"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-5Dzmsa"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Kuku-2.1;/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/cmake"
+    buildResult:
+      variable: "PSI_FOURQ_ARM64_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-5Dzmsa'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_824a4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_824a4.dir/build.make CMakeFiles/cmTC_824a4.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-5Dzmsa”
+        Building CXX object CMakeFiles/cmTC_824a4.dir/src.cxx.o
+        /usr/bin/c++ -DPSI_FOURQ_ARM64  -std=gnu++20 -o CMakeFiles/cmTC_824a4.dir/src.cxx.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-5Dzmsa/src.cxx
+        /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-5Dzmsa/src.cxx:7:14: error: #error 
+            7 |             #error
+              |              ^~~~~
+        gmake[1]: *** [CMakeFiles/cmTC_824a4.dir/build.make:78：CMakeFiles/cmTC_824a4.dir/src.cxx.o] 错误 1
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-5Dzmsa”
+        gmake: *** [Makefile:127：cmTC_824a4/fast] 错误 2
+        
+      exitCode: 2
+    runResult:
+      variable: "PSI_FOURQ_ARM64_EXITCODE"
+      cached: true
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "cmake/DetectArch.cmake:41 (check_cxx_source_runs)"
+      - "CMakeLists.txt:83 (include)"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-EP8bkl"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-EP8bkl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Kuku-2.1;/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/cmake"
+    buildResult:
+      variable: "PSI_FOURQ_AMD64_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-EP8bkl'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2a659/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2a659.dir/build.make CMakeFiles/cmTC_2a659.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-EP8bkl”
+        Building CXX object CMakeFiles/cmTC_2a659.dir/src.cxx.o
+        /usr/bin/c++ -DPSI_FOURQ_AMD64  -std=gnu++20 -o CMakeFiles/cmTC_2a659.dir/src.cxx.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-EP8bkl/src.cxx
+        Linking CXX executable cmTC_2a659
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2a659.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_2a659.dir/src.cxx.o -o cmTC_2a659 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-EP8bkl”
+        
+      exitCode: 0
+    runResult:
+      variable: "PSI_FOURQ_AMD64_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "cmake/FindAVX.cmake:15 (check_cxx_source_runs)"
+      - "CMakeLists.txt:95 (check_for_avx)"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-OzSt4k"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-OzSt4k"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Kuku-2.1;/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/cmake"
+    buildResult:
+      variable: "HAVE_AVX_EXTENSIONS_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-OzSt4k'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_28db6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_28db6.dir/build.make CMakeFiles/cmTC_28db6.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-OzSt4k”
+        Building CXX object CMakeFiles/cmTC_28db6.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_AVX_EXTENSIONS  -mavx -std=gnu++20 -o CMakeFiles/cmTC_28db6.dir/src.cxx.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-OzSt4k/src.cxx
+        Linking CXX executable cmTC_28db6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28db6.dir/link.txt --verbose=1
+        /usr/bin/c++  -mavx CMakeFiles/cmTC_28db6.dir/src.cxx.o -o cmTC_28db6 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-OzSt4k”
+        
+      exitCode: 0
+    runResult:
+      variable: "HAVE_AVX_EXTENSIONS_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "try_run-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake:93 (try_run)"
+      - "/usr/share/cmake-3.28/Modules/CheckCXXSourceRuns.cmake:52 (cmake_check_source_runs)"
+      - "cmake/FindAVX.cmake:42 (check_cxx_source_runs)"
+      - "CMakeLists.txt:95 (check_for_avx)"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-EhphEc"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-EhphEc"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Kuku-2.1;/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/cmake"
+    buildResult:
+      variable: "HAVE_AVX2_EXTENSIONS_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-EhphEc'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c7961/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c7961.dir/build.make CMakeFiles/cmTC_c7961.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-EhphEc”
+        Building CXX object CMakeFiles/cmTC_c7961.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_AVX2_EXTENSIONS  -mavx2 -std=gnu++20 -o CMakeFiles/cmTC_c7961.dir/src.cxx.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-EhphEc/src.cxx
+        Linking CXX executable cmTC_c7961
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7961.dir/link.txt --verbose=1
+        /usr/bin/c++  -mavx2 CMakeFiles/cmTC_c7961.dir/src.cxx.o -o cmTC_c7961 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-EhphEc”
+        
+      exitCode: 0
+    runResult:
+      variable: "HAVE_AVX2_EXTENSIONS_EXITCODE"
+      cached: true
+      stdout: |
+      stderr: |
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckLanguage.cmake:132 (message)"
+      - "CMakeLists.txt:113 (check_language)"
+    checks:
+      - "Looking for a ASM compiler"
+    message: |
+      Looking for a ASM compiler passed with the following output:
+      -- The ASM compiler identification is GNU
+      -- Found assembler: /usr/bin/cc
+      -- Configuring done (0.0s)
+      -- Generating done (0.0s)
+      -- Build files have been written to: /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CheckASM
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake:1131 (message)"
+      - "/usr/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake:131 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "CMakeLists.txt:115 (enable_language)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      cc (Ubuntu 11.5.0-1ubuntu1~24.04) 11.5.0
+      Copyright (C) 2021 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "mobile_psi_cpp/droidCrypto/relic/cmake/err.cmake:5 (check_include_files)"
+      - "mobile_psi_cpp/droidCrypto/relic/CMakeLists.txt:130 (include)"
+    checks:
+      - "Looking for include file execinfo.h"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-1NXNOL"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-1NXNOL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Kuku-2.1;/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_EXECINFO_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-1NXNOL'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_18e07/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_18e07.dir/build.make CMakeFiles/cmTC_18e07.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-1NXNOL”
+        Building C object CMakeFiles/cmTC_18e07.dir/HAVE_EXECINFO_H.c.o
+        /usr/bin/cc   -mavx2 -fPIE -o CMakeFiles/cmTC_18e07.dir/HAVE_EXECINFO_H.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-1NXNOL/HAVE_EXECINFO_H.c
+        Linking C executable cmTC_18e07
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18e07.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx2 -rdynamic CMakeFiles/cmTC_18e07.dir/HAVE_EXECINFO_H.c.o -o cmTC_18e07 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-1NXNOL”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "mobile_psi_cpp/droidCrypto/relic/cmake/err.cmake:8 (check_function_exists)"
+      - "mobile_psi_cpp/droidCrypto/relic/CMakeLists.txt:130 (include)"
+    checks:
+      - "Looking for backtrace"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-8XUKq9"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-8XUKq9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Kuku-2.1;/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_BACKTRACE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-8XUKq9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_e9e5f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_e9e5f.dir/build.make CMakeFiles/cmTC_e9e5f.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-8XUKq9”
+        Building C object CMakeFiles/cmTC_e9e5f.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=backtrace -mavx2 -fPIE -o CMakeFiles/cmTC_e9e5f.dir/CheckFunctionExists.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-8XUKq9/CheckFunctionExists.c
+        Linking C executable cmTC_e9e5f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e9e5f.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=backtrace -mavx2 -rdynamic CMakeFiles/cmTC_e9e5f.dir/CheckFunctionExists.c.o -o cmTC_e9e5f 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-8XUKq9”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckFunctionExists.cmake:86 (try_compile)"
+      - "mobile_psi_cpp/droidCrypto/relic/cmake/err.cmake:9 (check_function_exists)"
+      - "mobile_psi_cpp/droidCrypto/relic/CMakeLists.txt:130 (include)"
+    checks:
+      - "Looking for backtrace_symbols"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-YVJzPi"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-YVJzPi"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Kuku-2.1;/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_BACKTRACE_SYMBOLS"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-YVJzPi'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_d87be/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_d87be.dir/build.make CMakeFiles/cmTC_d87be.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-YVJzPi”
+        Building C object CMakeFiles/cmTC_d87be.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -DCHECK_FUNCTION_EXISTS=backtrace_symbols -mavx2 -fPIE -o CMakeFiles/cmTC_d87be.dir/CheckFunctionExists.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-YVJzPi/CheckFunctionExists.c
+        Linking C executable cmTC_d87be
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d87be.dir/link.txt --verbose=1
+        /usr/bin/cc  -DCHECK_FUNCTION_EXISTS=backtrace_symbols -mavx2 -rdynamic CMakeFiles/cmTC_d87be.dir/CheckFunctionExists.c.o -o cmTC_d87be 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-YVJzPi”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.28/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "mobile_psi_cpp/droidCrypto/relic/CMakeLists.txt:225 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-bTKs0T"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-bTKs0T"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Kuku-2.1;/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-bTKs0T'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_65ca0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_65ca0.dir/build.make CMakeFiles/cmTC_65ca0.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-bTKs0T”
+        Building C object CMakeFiles/cmTC_65ca0.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -mavx2 -fPIE -o CMakeFiles/cmTC_65ca0.dir/src.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-bTKs0T/src.c
+        Linking C executable cmTC_65ca0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_65ca0.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx2 -rdynamic CMakeFiles/cmTC_65ca0.dir/src.c.o -o cmTC_65ca0 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-bTKs0T”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:47 (check_include_files)"
+    checks:
+      - "Looking for include file sys/auxv.h"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-b3wcJk"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-b3wcJk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_AUXV_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-b3wcJk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4ee4b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4ee4b.dir/build.make CMakeFiles/cmTC_4ee4b.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-b3wcJk”
+        Building C object CMakeFiles/cmTC_4ee4b.dir/HAVE_SYS_AUXV_H.c.o
+        /usr/bin/cc   -mavx2 -fPIE -o CMakeFiles/cmTC_4ee4b.dir/HAVE_SYS_AUXV_H.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-b3wcJk/HAVE_SYS_AUXV_H.c
+        Linking C executable cmTC_4ee4b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ee4b.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx2 -rdynamic CMakeFiles/cmTC_4ee4b.dir/HAVE_SYS_AUXV_H.c.o -o cmTC_4ee4b 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-b3wcJk”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:48 (check_include_files)"
+    checks:
+      - "Looking for include file asm/hwcap.h"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-xygeKk"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-xygeKk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_ASM_HWCAP_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-xygeKk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0c1fb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0c1fb.dir/build.make CMakeFiles/cmTC_0c1fb.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-xygeKk”
+        Building C object CMakeFiles/cmTC_0c1fb.dir/HAVE_ASM_HWCAP_H.c.o
+        /usr/bin/cc   -mavx2 -fPIE -o CMakeFiles/cmTC_0c1fb.dir/HAVE_ASM_HWCAP_H.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-xygeKk/HAVE_ASM_HWCAP_H.c
+        /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-xygeKk/HAVE_ASM_HWCAP_H.c:2:10: fatal error: asm/hwcap.h: 没有那个文件或目录
+            2 | #include <asm/hwcap.h>
+              |          ^~~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_0c1fb.dir/build.make:78：CMakeFiles/cmTC_0c1fb.dir/HAVE_ASM_HWCAP_H.c.o] 错误 1
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-xygeKk”
+        gmake: *** [Makefile:127：cmTC_0c1fb/fast] 错误 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckIncludeFiles.cmake:132 (try_compile)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:49 (check_include_files)"
+    checks:
+      - "Looking for include file sys/random.h"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-8diDvA"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-8diDvA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_SYS_RANDOM_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-8diDvA'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9b9f5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9b9f5.dir/build.make CMakeFiles/cmTC_9b9f5.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-8diDvA”
+        Building C object CMakeFiles/cmTC_9b9f5.dir/HAVE_SYS_RANDOM_H.c.o
+        /usr/bin/cc   -mavx2 -fPIE -o CMakeFiles/cmTC_9b9f5.dir/HAVE_SYS_RANDOM_H.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-8diDvA/HAVE_SYS_RANDOM_H.c
+        Linking C executable cmTC_9b9f5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b9f5.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx2 -rdynamic CMakeFiles/cmTC_9b9f5.dir/HAVE_SYS_RANDOM_H.c.o -o cmTC_9b9f5 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-8diDvA”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:52 (check_symbol_exists)"
+    checks:
+      - "Looking for aligned_alloc"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-MxIFpv"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-MxIFpv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_ALIGNED_ALLOC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-MxIFpv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3b13e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3b13e.dir/build.make CMakeFiles/cmTC_3b13e.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-MxIFpv”
+        Building C object CMakeFiles/cmTC_3b13e.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -mavx2 -fPIE -o CMakeFiles/cmTC_3b13e.dir/CheckSymbolExists.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-MxIFpv/CheckSymbolExists.c
+        Linking C executable cmTC_3b13e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b13e.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx2 -rdynamic CMakeFiles/cmTC_3b13e.dir/CheckSymbolExists.c.o -o cmTC_3b13e 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-MxIFpv”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:53 (check_symbol_exists)"
+    checks:
+      - "Looking for posix_memalign"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-k2Ezbv"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-k2Ezbv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_POSIX_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-k2Ezbv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5d8fb/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5d8fb.dir/build.make CMakeFiles/cmTC_5d8fb.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-k2Ezbv”
+        Building C object CMakeFiles/cmTC_5d8fb.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -mavx2 -fPIE -o CMakeFiles/cmTC_5d8fb.dir/CheckSymbolExists.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-k2Ezbv/CheckSymbolExists.c
+        Linking C executable cmTC_5d8fb
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d8fb.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx2 -rdynamic CMakeFiles/cmTC_5d8fb.dir/CheckSymbolExists.c.o -o cmTC_5d8fb 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-k2Ezbv”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:54 (check_symbol_exists)"
+    checks:
+      - "Looking for memalign"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-C9d7hw"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-C9d7hw"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_MEMALIGN"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-C9d7hw'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f271b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f271b.dir/build.make CMakeFiles/cmTC_f271b.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-C9d7hw”
+        Building C object CMakeFiles/cmTC_f271b.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -mavx2 -fPIE -o CMakeFiles/cmTC_f271b.dir/CheckSymbolExists.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-C9d7hw/CheckSymbolExists.c
+        Linking C executable cmTC_f271b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f271b.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx2 -rdynamic CMakeFiles/cmTC_f271b.dir/CheckSymbolExists.c.o -o cmTC_f271b 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-C9d7hw”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:140 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSymbolExists.cmake:66 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:55 (check_symbol_exists)"
+    checks:
+      - "Looking for getrandom"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-veGpCP"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-veGpCP"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "HAVE_GETRANDOM"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-veGpCP'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_70b93/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_70b93.dir/build.make CMakeFiles/cmTC_70b93.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-veGpCP”
+        Building C object CMakeFiles/cmTC_70b93.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -mavx2 -fPIE -o CMakeFiles/cmTC_70b93.dir/CheckSymbolExists.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-veGpCP/CheckSymbolExists.c
+        Linking C executable cmTC_70b93
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70b93.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx2 -rdynamic CMakeFiles/cmTC_70b93.dir/CheckSymbolExists.c.o -o cmTC_70b93 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-veGpCP”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:58 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test CC_SUPPORTS_MARCH_NATIVE"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-BouqwL"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-BouqwL"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CC_SUPPORTS_MARCH_NATIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-BouqwL'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3c046/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3c046.dir/build.make CMakeFiles/cmTC_3c046.dir/build
+        gmake[1]: Entering directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-BouqwL'
+        Building C object CMakeFiles/cmTC_3c046.dir/src.c.o
+        /usr/bin/cc -DCC_SUPPORTS_MARCH_NATIVE  -mavx2 -fPIE   -march=native -o CMakeFiles/cmTC_3c046.dir/src.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-BouqwL/src.c
+        Linking C executable cmTC_3c046
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3c046.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx2 -rdynamic CMakeFiles/cmTC_3c046.dir/src.c.o -o cmTC_3c046 
+        gmake[1]: Leaving directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-BouqwL'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:59 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test CC_SUPPORTS_MTUNE_NATIVE"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-eVcTyR"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-eVcTyR"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CC_SUPPORTS_MTUNE_NATIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-eVcTyR'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_67855/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_67855.dir/build.make CMakeFiles/cmTC_67855.dir/build
+        gmake[1]: Entering directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-eVcTyR'
+        Building C object CMakeFiles/cmTC_67855.dir/src.c.o
+        /usr/bin/cc -DCC_SUPPORTS_MTUNE_NATIVE  -mavx2 -fPIE   -mtune=native -o CMakeFiles/cmTC_67855.dir/src.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-eVcTyR/src.c
+        Linking C executable cmTC_67855
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67855.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx2 -rdynamic CMakeFiles/cmTC_67855.dir/src.c.o -o cmTC_67855 
+        gmake[1]: Leaving directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-eVcTyR'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:60 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test CC_SUPPORTS_03"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-9Lip71"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-9Lip71"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CC_SUPPORTS_03"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-9Lip71'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_70306/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_70306.dir/build.make CMakeFiles/cmTC_70306.dir/build
+        gmake[1]: Entering directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-9Lip71'
+        Building C object CMakeFiles/cmTC_70306.dir/src.c.o
+        /usr/bin/cc -DCC_SUPPORTS_03  -mavx2 -fPIE   -O3 -o CMakeFiles/cmTC_70306.dir/src.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-9Lip71/src.c
+        Linking C executable cmTC_70306
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70306.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx2 -rdynamic CMakeFiles/cmTC_70306.dir/src.c.o -o cmTC_70306 
+        gmake[1]: Leaving directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-9Lip71'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:61 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test CC_SUPPORTS_WALL"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-Ap7rvA"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-Ap7rvA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CC_SUPPORTS_WALL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-Ap7rvA'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_31d4a/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_31d4a.dir/build.make CMakeFiles/cmTC_31d4a.dir/build
+        gmake[1]: Entering directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-Ap7rvA'
+        Building C object CMakeFiles/cmTC_31d4a.dir/src.c.o
+        /usr/bin/cc -DCC_SUPPORTS_WALL  -mavx2 -fPIE   -Wall -o CMakeFiles/cmTC_31d4a.dir/src.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-Ap7rvA/src.c
+        Linking C executable cmTC_31d4a
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31d4a.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx2 -rdynamic CMakeFiles/cmTC_31d4a.dir/src.c.o -o cmTC_31d4a 
+        gmake[1]: Leaving directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-Ap7rvA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:62 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test CC_SUPPORTS_WEXTRA"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-blBYvK"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-blBYvK"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CC_SUPPORTS_WEXTRA"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-blBYvK'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_78a8e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_78a8e.dir/build.make CMakeFiles/cmTC_78a8e.dir/build
+        gmake[1]: Entering directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-blBYvK'
+        Building C object CMakeFiles/cmTC_78a8e.dir/src.c.o
+        /usr/bin/cc -DCC_SUPPORTS_WEXTRA  -mavx2 -fPIE   -Wextra -o CMakeFiles/cmTC_78a8e.dir/src.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-blBYvK/src.c
+        Linking C executable cmTC_78a8e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_78a8e.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx2 -rdynamic CMakeFiles/cmTC_78a8e.dir/src.c.o -o cmTC_78a8e 
+        gmake[1]: Leaving directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-blBYvK'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:63 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test CC_SUPPORTS_FOMIT_FRAME_POINTER"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-eJUuAa"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-eJUuAa"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CC_SUPPORTS_FOMIT_FRAME_POINTER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-eJUuAa'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f1e14/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f1e14.dir/build.make CMakeFiles/cmTC_f1e14.dir/build
+        gmake[1]: Entering directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-eJUuAa'
+        Building C object CMakeFiles/cmTC_f1e14.dir/src.c.o
+        /usr/bin/cc -DCC_SUPPORTS_FOMIT_FRAME_POINTER  -mavx2 -fPIE   -fomit-frame-pointer -o CMakeFiles/cmTC_f1e14.dir/src.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-eJUuAa/src.c
+        Linking C executable cmTC_f1e14
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1e14.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx2 -rdynamic CMakeFiles/cmTC_f1e14.dir/src.c.o -o cmTC_f1e14 
+        gmake[1]: Leaving directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-eJUuAa'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/CheckCCompilerFlag.cmake:51 (cmake_check_compiler_flag)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:64 (check_c_compiler_flag)"
+    checks:
+      - "Performing Test CC_SUPPORTS_FVISIBILITY"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-K8W9LJ"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-K8W9LJ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CC_SUPPORTS_FVISIBILITY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-K8W9LJ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f006f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f006f.dir/build.make CMakeFiles/cmTC_f006f.dir/build
+        gmake[1]: Entering directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-K8W9LJ'
+        Building C object CMakeFiles/cmTC_f006f.dir/src.c.o
+        /usr/bin/cc -DCC_SUPPORTS_FVISIBILITY  -mavx2 -fPIE   -fvisibility=hidden -o CMakeFiles/cmTC_f006f.dir/src.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-K8W9LJ/src.c
+        Linking C executable cmTC_f006f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f006f.dir/link.txt --verbose=1
+        /usr/bin/cc  -mavx2 -rdynamic CMakeFiles/cmTC_f006f.dir/src.c.o -o cmTC_f006f 
+        gmake[1]: Leaving directory '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-K8W9LJ'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "mobile_psi_cpp/droidCrypto/lowmc/cmake/CheckSIMD.cmake:29 (try_compile)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:67 (check_simd)"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CC_SUPPORTS_SSE2"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_de84d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_de84d.dir/build.make CMakeFiles/cmTC_de84d.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_de84d.dir/check-simd.c.o
+        /usr/bin/cc   -DSSE2 -mavx2 -fPIE -o CMakeFiles/cmTC_de84d.dir/check-simd.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake/check-simd.c
+        Linking C executable cmTC_de84d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de84d.dir/link.txt --verbose=1
+        /usr/bin/cc  -DSSE2 -mavx2 -rdynamic "CMakeFiles/cmTC_de84d.dir/check-simd.c.o" -o cmTC_de84d 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "mobile_psi_cpp/droidCrypto/lowmc/cmake/CheckSIMD.cmake:29 (try_compile)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:68 (check_simd)"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CC_SUPPORTS_AVX2"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6079b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_6079b.dir/build.make CMakeFiles/cmTC_6079b.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_6079b.dir/check-simd.c.o
+        /usr/bin/cc   -DAVX2 -mavx2 -fPIE -o CMakeFiles/cmTC_6079b.dir/check-simd.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake/check-simd.c
+        Linking C executable cmTC_6079b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6079b.dir/link.txt --verbose=1
+        /usr/bin/cc  -DAVX2 -mavx2 -rdynamic "CMakeFiles/cmTC_6079b.dir/check-simd.c.o" -o cmTC_6079b 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "mobile_psi_cpp/droidCrypto/lowmc/cmake/CheckSIMD.cmake:29 (try_compile)"
+      - "mobile_psi_cpp/droidCrypto/lowmc/CMakeLists.txt:69 (check_simd)"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "CC_SUPPORTS_NEON"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0ded9/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0ded9.dir/build.make CMakeFiles/cmTC_0ded9.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp”
+        Building C object CMakeFiles/cmTC_0ded9.dir/check-simd.c.o
+        /usr/bin/cc   -DNEON -mavx2 -fPIE -o CMakeFiles/cmTC_0ded9.dir/check-simd.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake/check-simd.c
+        /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake/check-simd.c:27:10: fatal error: arm_neon.h: 没有那个文件或目录
+           27 | #include <arm_neon.h>
+              |          ^~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_0ded9.dir/build.make:78：CMakeFiles/cmTC_0ded9.dir/check-simd.c.o] 错误 1
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp”
+        gmake: *** [Makefile:127：cmTC_0ded9/fast] 错误 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/CheckSourceCompiles.cmake:77 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.28/Modules/FindJNI.cmake:485 (check_source_compiles)"
+      - "mobile_psi_cpp/droidCrypto/CMakeLists.txt:115 (find_package)"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-2J2ac4"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-2J2ac4"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Kuku-2.1;/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/cmake"
+      CMAKE_POSITION_INDEPENDENT_CODE: "ON"
+    buildResult:
+      variable: "JNI_INCLUDE_PATH2_OPTIONAL"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-2J2ac4'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_13276/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_13276.dir/build.make CMakeFiles/cmTC_13276.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-2J2ac4”
+        Building C object CMakeFiles/cmTC_13276.dir/src.c.o
+        /usr/bin/cc -DJNI_INCLUDE_PATH2_OPTIONAL -I/usr/lib/jvm/default-java/include -fPIE -o CMakeFiles/cmTC_13276.dir/src.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-2J2ac4/src.c
+        In file included from /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-2J2ac4/src.c:2:
+        /usr/lib/jvm/default-java/include/jni.h:45:10: fatal error: jni_md.h: 没有那个文件或目录
+           45 | #include "jni_md.h"
+              |          ^~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_13276.dir/build.make:78：CMakeFiles/cmTC_13276.dir/src.c.o] 错误 1
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-2J2ac4”
+        gmake: *** [Makefile:127：cmTC_13276/fast] 错误 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:166 (find_package)"
+    description: "Detecting C OpenMP compiler info"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-T7TC4Y"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-T7TC4Y"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Kuku-2.1;/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/cmake"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_C_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-T7TC4Y'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4634c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4634c.dir/build.make CMakeFiles/cmTC_4634c.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-T7TC4Y”
+        Building C object CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o
+        /usr/bin/cc   -fopenmp -v -o CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-T7TC4Y/OpenMPTryFlag.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_4634c.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-T7TC4Y/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_4634c.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc1Jl6TY.s
+        GNU C17 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.5.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.5.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 6c85bb811dd1245e341730876e9ca5f9
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_4634c.dir/'
+         as -v --64 -o CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o /tmp/cc1Jl6TY.s
+        GNU汇编版本 2.42 (x86_64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.'
+        Linking C executable cmTC_4634c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4634c.dir/link.txt --verbose=1
+        /usr/bin/cc  -fopenmp -v CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o -o cmTC_4634c  -v 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_4634c' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_4634c.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvejJKm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4634c /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_4634c' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_4634c.'
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-T7TC4Y”
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:262 (message)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:166 (find_package)"
+    message: |
+      Parsed C OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-T7TC4Y']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4634c/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_4634c.dir/build.make CMakeFiles/cmTC_4634c.dir/build]
+        ignore line: [gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-T7TC4Y”]
+        ignore line: [Building C object CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o]
+        ignore line: [/usr/bin/cc   -fopenmp -v -o CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-T7TC4Y/OpenMPTryFlag.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_4634c.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1 -quiet -v -imultiarch x86_64-linux-gnu -D_REENTRANT /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-T7TC4Y/OpenMPTryFlag.c -quiet -dumpdir CMakeFiles/cmTC_4634c.dir/ -dumpbase OpenMPTryFlag.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/cc1Jl6TY.s]
+        ignore line: [GNU C17 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.5.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.5.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 6c85bb811dd1245e341730876e9ca5f9]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_4634c.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o /tmp/cc1Jl6TY.s]
+        ignore line: [GNU汇编版本 2.42 (x86_64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o' '-c' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.']
+        ignore line: [Linking C executable cmTC_4634c]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4634c.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/cc  -fopenmp -v CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o -o cmTC_4634c  -v ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_4634c' '-v' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_4634c.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccvejJKm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4634c /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o -lgomp -lgcc --push-state --as-needed -lgcc_s --pop-state -lpthread -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadend.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccvejJKm.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_4634c] ==> ignore
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [CMakeFiles/cmTC_4634c.dir/OpenMPTryFlag.c.o] ==> ignore
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [gomp;gcc;gcc_s;pthread;c;gcc;gcc_s]
+        implicit objs: []
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:219 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:166 (find_package)"
+    description: "Detecting CXX OpenMP compiler info"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-FP8ZXG"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-FP8ZXG"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Kuku-2.1;/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/cmake"
+    buildResult:
+      variable: "OpenMP_COMPILE_RESULT_CXX_fopenmp"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-FP8ZXG'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0f6ce/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_0f6ce.dir/build.make CMakeFiles/cmTC_0f6ce.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-FP8ZXG”
+        Building CXX object CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o
+        /usr/bin/c++   -fopenmp -v -std=gnu++20 -o CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-FP8ZXG/OpenMPTryFlag.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) 
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_0f6ce.dir/'
+         /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-FP8ZXG/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_0f6ce.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++20 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccnmnPHt.s
+        GNU C++20 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.5.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/11
+         /usr/include/x86_64-linux-gnu/c++/11
+         /usr/include/c++/11/backward
+         /usr/lib/gcc/x86_64-linux-gnu/11/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++20 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 11.5.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.26-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: e95d0d86d650030a4287bb0b2bab968d
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_0f6ce.dir/'
+         as -v --64 -o CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o /tmp/ccnmnPHt.s
+        GNU汇编版本 2.42 (x86_64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.'
+        Linking CXX executable cmTC_0f6ce
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f6ce.dir/link.txt --verbose=1
+        /usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o -o cmTC_0f6ce  -v 
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) 
+        COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/
+        Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.spec
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_0f6ce' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_0f6ce.'
+         /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTJpxAA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0f6ce /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadend.o
+        COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_0f6ce' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_0f6ce.'
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-FP8ZXG”
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:262 (message)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:486 (_OPENMP_GET_FLAGS)"
+      - "CMakeLists.txt:166 (find_package)"
+    message: |
+      Parsed CXX OpenMP implicit link information from above output:
+        link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        ignore line: [Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-FP8ZXG']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_0f6ce/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_0f6ce.dir/build.make CMakeFiles/cmTC_0f6ce.dir/build]
+        ignore line: [gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-FP8ZXG”]
+        ignore line: [Building CXX object CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o]
+        ignore line: [/usr/bin/c++   -fopenmp -v -std=gnu++20 -o CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-FP8ZXG/OpenMPTryFlag.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_0f6ce.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE -D_REENTRANT /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-FP8ZXG/OpenMPTryFlag.cpp -quiet -dumpdir CMakeFiles/cmTC_0f6ce.dir/ -dumpbase OpenMPTryFlag.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -std=gnu++20 -version -fopenmp -fasynchronous-unwind-tables -fstack-protector-strong -Wformat -Wformat-security -fstack-clash-protection -fcf-protection -o /tmp/ccnmnPHt.s]
+        ignore line: [GNU C++20 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.5.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/11"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/11/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/11]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/11]
+        ignore line: [ /usr/include/c++/11/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/11/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++20 (Ubuntu 11.5.0-1ubuntu1~24.04) version 11.5.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 11.5.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.26-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: e95d0d86d650030a4287bb0b2bab968d]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_0f6ce.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o /tmp/ccnmnPHt.s]
+        ignore line: [GNU汇编版本 2.42 (x86_64-linux-gnu) 使用BFD版本 (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-std=gnu++20' '-o' 'CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.']
+        ignore line: [Linking CXX executable cmTC_0f6ce]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f6ce.dir/link.txt --verbose=1]
+        ignore line: [/usr/bin/c++  -fopenmp -v CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o -o cmTC_0f6ce  -v ]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 11.5.0-1ubuntu1~24.04' --with-bugurl=file:///usr/share/doc/gcc-11/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-11 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-11-9J0Te4/gcc-11-11.5.0/debian/tmp-gcn/usr --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=2]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 11.5.0 (Ubuntu 11.5.0-1ubuntu1~24.04) ]
+        ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/11/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/11/../../../:/lib/:/usr/lib/]
+        ignore line: [Reading specs from /usr/lib/gcc/x86_64-linux-gnu/11/libgomp.spec]
+        ignore line: [COLLECT_GCC_OPTIONS='-fopenmp' '-v' '-o' 'cmTC_0f6ce' '-v' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-pthread' '-dumpdir' 'cmTC_0f6ce.']
+        link line: [ /usr/lib/gcc/x86_64-linux-gnu/11/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper -plugin-opt=-fresolution=/tmp/ccTJpxAA.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_0f6ce /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/11/crtbeginS.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/11 -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/11/../../.. CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o -lstdc++ -lm -lgomp -lgcc_s -lgcc -lpthread -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/11/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/crtn.o /usr/lib/gcc/x86_64-linux-gnu/11/crtoffloadend.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/11/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/11/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccTJpxAA.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-znow] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_0f6ce] ==> ignore
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..]
+          arg [CMakeFiles/cmTC_0f6ce.dir/OpenMPTryFlag.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgomp] ==> lib [gomp]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lpthread] ==> lib [pthread]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11] ==> [/usr/lib/gcc/x86_64-linux-gnu/11]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/11/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gomp;gcc_s;gcc;pthread;c;gcc_s;gcc]
+        implicit objs: []
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/11;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:420 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:560 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:166 (find_package)"
+    description: "Detecting C OpenMP version"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-y6nsrG"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-y6nsrG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Kuku-2.1;/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/cmake"
+    buildResult:
+      variable: "OpenMP_SPECTEST_C_"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-y6nsrG'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_2359f/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_2359f.dir/build.make CMakeFiles/cmTC_2359f.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-y6nsrG”
+        Building C object CMakeFiles/cmTC_2359f.dir/OpenMPCheckVersion.c.o
+        /usr/bin/cc   -fopenmp -o CMakeFiles/cmTC_2359f.dir/OpenMPCheckVersion.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-y6nsrG/OpenMPCheckVersion.c
+        Linking C executable cmTC_2359f
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2359f.dir/link.txt --verbose=1
+        /usr/bin/cc  -fopenmp CMakeFiles/cmTC_2359f.dir/OpenMPCheckVersion.c.o -o cmTC_2359f 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-y6nsrG”
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:420 (try_compile)"
+      - "/usr/share/cmake-3.28/Modules/FindOpenMP.cmake:560 (_OPENMP_GET_SPEC_DATE)"
+      - "CMakeLists.txt:166 (find_package)"
+    description: "Detecting CXX OpenMP version"
+    directories:
+      source: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-LbrBip"
+      binary: "/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-LbrBip"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/local/lib/cmake/Kuku-2.1;/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/cmake"
+    buildResult:
+      variable: "OpenMP_SPECTEST_CXX_"
+      cached: true
+      stdout: |
+        Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-LbrBip'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_66ad7/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_66ad7.dir/build.make CMakeFiles/cmTC_66ad7.dir/build
+        gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-LbrBip”
+        Building CXX object CMakeFiles/cmTC_66ad7.dir/OpenMPCheckVersion.cpp.o
+        /usr/bin/c++   -fopenmp -std=gnu++20 -o CMakeFiles/cmTC_66ad7.dir/OpenMPCheckVersion.cpp.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-LbrBip/OpenMPCheckVersion.cpp
+        Linking CXX executable cmTC_66ad7
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_66ad7.dir/link.txt --verbose=1
+        /usr/bin/c++  -fopenmp CMakeFiles/cmTC_66ad7.dir/OpenMPCheckVersion.cpp.o -o cmTC_66ad7 
+        gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeScratch/TryCompile-LbrBip”
+        
+      exitCode: 0
+...

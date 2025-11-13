@@ -1,0 +1,30 @@
+Determining if the instruction set SSE2 exists passed with the following output:
+Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_de84d/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_de84d.dir/build.make CMakeFiles/cmTC_de84d.dir/build
+gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_de84d.dir/check-simd.c.o
+/usr/bin/cc   -DSSE2 -mavx2 -fPIE -o CMakeFiles/cmTC_de84d.dir/check-simd.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake/check-simd.c
+Linking C executable cmTC_de84d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_de84d.dir/link.txt --verbose=1
+/usr/bin/cc  -DSSE2 -mavx2 -rdynamic "CMakeFiles/cmTC_de84d.dir/check-simd.c.o" -o cmTC_de84d 
+gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the instruction set AVX2 exists passed with the following output:
+Change Dir: '/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp'
+
+Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_6079b/fast
+/usr/bin/gmake  -f CMakeFiles/cmTC_6079b.dir/build.make CMakeFiles/cmTC_6079b.dir/build
+gmake[1]: 进入目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6079b.dir/check-simd.c.o
+/usr/bin/cc   -DAVX2 -mavx2 -fPIE -o CMakeFiles/cmTC_6079b.dir/check-simd.c.o -c /home/hmj/MFCPIR/DPFPSI-main/DPFPSI/mobile_psi_cpp/droidCrypto/lowmc/cmake/check-simd.c
+Linking C executable cmTC_6079b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6079b.dir/link.txt --verbose=1
+/usr/bin/cc  -DAVX2 -mavx2 -rdynamic "CMakeFiles/cmTC_6079b.dir/check-simd.c.o" -o cmTC_6079b 
+gmake[1]: 离开目录“/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CMakeTmp”
+
+
+

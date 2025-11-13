@@ -1,0 +1,1855 @@
+Server data_gen: 7.36667 ms
+Server online: 391.823 ms, offline: 3266.98 ms
+AidServer online: 5296.27 ms, offline: 0.030443 ms
+Client data_gen: 22.5546 ms
+Client online: 394.748 ms, offline: 0.163516 ms
+AidServer online: 3169.51 ms, offline: 0.107474 ms
+Server data_gen: 6.20665 ms
+Server online: 320.574 ms, offline: 1380.78 ms
+Client data_gen: 1.6922 ms
+Client online: 323.602 ms, offline: 0.117874 ms
+AidServer online: 5116.92 ms, offline: 0.081948 ms
+Server data_gen: 8.67536 ms
+Server online: 284.264 ms, offline: 2213.58 ms
+Client data_gen: 8.71965 ms
+Client online: 286.53 ms, offline: 0.361631 ms
+AidServer online: 2549.55 ms, offline: 0.104102 ms
+Server data_gen: 7.85404 ms
+Server online: 351.514 ms, offline: 1059.84 ms
+Client data_gen: 4.42007 ms
+Client online: 354.011 ms, offline: 0.159684 ms
+Server data_gen: 2.68669 ms
+Server online: 281.479 ms, offline: 1191.41 ms
+Client data_gen: 1.90847 ms
+Client online: 292.364 ms, offline: 0.094153 ms
+AidServer online: 3134.41 ms, offline: 0.070757 ms
+Server data_gen: 8.39029 ms
+Server online: 274.586 ms, offline: 2566.62 ms
+Client data_gen: 8.683 ms
+Client online: 278.382 ms, offline: 0.286475 ms
+AidServer online: 5333.66 ms, offline: 0.059673 ms
+Server data_gen: 2.70945 ms
+Server online: 264.443 ms, offline: 2580.4 ms
+Client data_gen: 8.68556 ms
+Client online: 269.513 ms, offline: 0.301182 ms
+AidServer online: 6008.34 ms, offline: 0.068481 ms
+Server data_gen: 13.5644 ms
+Server online: 385.791 ms, offline: 0.08514 ms
+AidServer online: 3705.58 ms, offline: 0.032847 ms
+Client data_gen: 7.56367 ms
+Client online: 389.193 ms, offline: 1366.24 ms
+Server data_gen: 1.84053 ms
+Server online: 264.223 ms, offline: 0.084306 ms
+AidServer online: 2365.75 ms, offline: 0.096963 ms
+Client data_gen: 9.39928 ms
+Client online: 266.436 ms, offline: 1076.91 ms
+Server data_gen: 175.205 ms
+Server online: 8555.21 ms, offline: 2689.81 ms
+Client data_gen: 127.826 ms
+Client online: 8576.66 ms, offline: 0.062252 ms
+AidServer online: 9821.84 ms, offline: 0.021922 ms
+Server data_gen: 260.548 ms
+Server online: 9042.48 ms, offline: 2190.77 ms
+Client data_gen: 250.288 ms
+Client online: 9064.31 ms, offline: 0.141959 ms
+AidServer online: 10633 ms, offline: 0.116886 ms
+Server data_gen: 191.201 ms
+Server online: 8312.21 ms, offline: 1727.23 ms
+Client data_gen: 131.972 ms
+Client online: 8369.88 ms, offline: 0.08818 ms
+AidServer online: 9417.81 ms, offline: 0.101349 ms
+Server data_gen: 196.466 ms
+Server online: 8074.03 ms, offline: 1930.29 ms
+Client data_gen: 173.37 ms
+Client online: 8097.27 ms, offline: 0.131512 ms
+AidServer online: 9318.19 ms, offline: 0.096402 ms
+Server data_gen: 165.08 ms
+Server online: 8201.33 ms, offline: 2320.27 ms
+Client data_gen: 258.877 ms
+Client online: 8376.14 ms, offline: 0.116791 ms
+AidServer online: 9831.56 ms, offline: 0.057352 ms
+Server data_gen: 190.618 ms
+Server online: 8700.19 ms, offline: 2009.33 ms
+Client data_gen: 182.218 ms
+Client online: 8712.33 ms, offline: 0.083467 ms
+AidServer online: 9887.73 ms, offline: 0.053119 ms
+Server data_gen: 222.012 ms
+Server online: 8597.39 ms, offline: 2151.67 ms
+Client data_gen: 234.993 ms
+Client online: 8612.38 ms, offline: 0.145789 ms
+AidServer online: 9855.95 ms, offline: 0.022605 ms
+Server data_gen: 183.397 ms
+Server online: 8059.36 ms, offline: 5002.43 ms
+Client data_gen: 159.474 ms
+Client online: 8077.75 ms, offline: 0.108889 ms
+AidServer online: 10378.6 ms, offline: 0.033218 ms
+Server data_gen: 183.179 ms
+Server online: 8291.86 ms, offline: 5894.57 ms
+Client data_gen: 150.226 ms
+Client online: 8313.03 ms, offline: 0.122946 ms
+AidServer online: 12474.3 ms, offline: 0.01887 ms
+Server data_gen: 192.129 ms
+Server online: 8358.74 ms, offline: 4066.21 ms
+Client data_gen: 172.945 ms
+Client online: 8372.87 ms, offline: 0.170879 ms
+AidServer online: 10649.4 ms, offline: 0.020642 ms
+Server data_gen: 392.595 ms
+Server online: 8814.7 ms, offline: 2207.75 ms
+Client data_gen: 170.797 ms
+Client online: 8831.18 ms, offline: 0.167923 ms
+AidServer online: 10417.7 ms, offline: 0.034591 ms
+Server data_gen: 403.527 ms
+Server online: 8635.4 ms, offline: 1465.59 ms
+Client data_gen: 132.829 ms
+Client online: 8654.69 ms, offline: 0.091405 ms
+AidServer online: 9737.26 ms, offline: 0.073956 ms
+Server data_gen: 445.056 ms
+Server online: 8900.72 ms, offline: 1520.58 ms
+Client data_gen: 152.742 ms
+Client online: 9040 ms, offline: 0.098239 ms
+AidServer online: 10089.4 ms, offline: 0.095507 ms
+Server data_gen: 549.312 ms
+Server online: 8893.83 ms, offline: 2227.91 ms
+Client data_gen: 289.072 ms
+Client online: 8909.66 ms, offline: 0.081941 ms
+AidServer online: 10763.2 ms, offline: 0.095539 ms
+Server data_gen: 512.733 ms
+Server online: 9141.03 ms, offline: 1795.18 ms
+Client data_gen: 215.01 ms
+Client online: 9159.69 ms, offline: 0.29115 ms
+AidServer online: 10492.7 ms, offline: 0.051072 ms
+Server data_gen: 1625.24 ms
+Server online: 9991.14 ms, offline: 1326.09 ms
+Client data_gen: 221.696 ms
+Client online: 10008.5 ms, offline: 0.113273 ms
+AidServer online: 11592.8 ms, offline: 0.021993 ms
+Server data_gen: 1810.76 ms
+Server online: 10388.9 ms, offline: 848.082 ms
+Client data_gen: 448.506 ms
+Client online: 10602.2 ms, offline: 0.081381 ms
+AidServer online: 12130.1 ms, offline: 0.02561 ms
+Server data_gen: 1845.4 ms
+Server online: 10736 ms, offline: 559.937 ms
+Client data_gen: 467.1 ms
+Client online: 10749.5 ms, offline: 0.107373 ms
+AidServer online: 12221.6 ms, offline: 0.025469 ms
+Server data_gen: 1882.84 ms
+Server online: 10356.7 ms, offline: 2380.07 ms
+Client data_gen: 454.039 ms
+Client online: 10370.2 ms, offline: 0.092757 ms
+AidServer online: 12667.2 ms, offline: 0.096883 ms
+Server data_gen: 6245.09 ms
+Server online: 17626.2 ms, offline: 0.09514 ms
+Client data_gen: 484.61 ms
+Client online: 17637.4 ms, offline: 3622.7 ms
+AidServer online: 22795.9 ms, offline: 0.029183 ms
+Server data_gen: 6408.04 ms
+Server online: 18271.9 ms, offline: 0.133998 ms
+Client data_gen: 1014.61 ms
+Client online: 18644.3 ms, offline: 3298.09 ms
+AidServer online: 24014.1 ms, offline: 0.019962 ms
+Server data_gen: 6229.15 ms
+Server online: 17063.9 ms, offline: 0.103451 ms
+Client data_gen: 998.587 ms
+Client online: 17077.6 ms, offline: 3104.69 ms
+AidServer online: 22213.6 ms, offline: 0.022577 ms
+Server data_gen: 7212.85 ms
+Server online: 19488.5 ms, offline: 0.126825 ms
+Client data_gen: 2220.59 ms
+Client online: 19501.4 ms, offline: 2494.36 ms
+AidServer online: 25518 ms, offline: 0.021085 ms
+Server data_gen: 7475.1 ms
+Server online: 17642.7 ms, offline: 1341.19 ms
+Client data_gen: 2996.01 ms
+Client online: 17653.6 ms, offline: 0.27282 ms
+AidServer online: 23166.1 ms, offline: 0.021262 ms
+Server data_gen: 7457.13 ms
+Server online: 17431.3 ms, offline: 1738.58 ms
+Client data_gen: 3547.66 ms
+Client online: 17443.1 ms, offline: 0.162495 ms
+AidServer online: 23257.5 ms, offline: 0.018258 ms
+Server data_gen: 7982.9 ms
+Server online: 18208 ms, offline: 4303.06 ms
+Client data_gen: 1597.79 ms
+Client online: 18221.4 ms, offline: 0.131429 ms
+AidServer online: 25444.8 ms, offline: 0.03993 ms
+Server data_gen: 6797.82 ms
+Server online: 17634.3 ms, offline: 3527.76 ms
+Client data_gen: 3454.84 ms
+Client online: 17645 ms, offline: 0.11395 ms
+AidServer online: 24618.7 ms, offline: 0.020223 ms
+Server data_gen: 7091.19 ms
+Server online: 17992.1 ms, offline: 3147.56 ms
+Client data_gen: 2384.42 ms
+Client online: 18002.8 ms, offline: 0.127732 ms
+AidServer online: 24737.4 ms, offline: 0.036449 ms
+Server data_gen: 6829.62 ms
+Server online: 17741 ms, offline: 3541.37 ms
+Client data_gen: 2688.94 ms
+Client online: 17755.5 ms, offline: 0.13901 ms
+AidServer online: 25403.4 ms, offline: 0.021087 ms
+Server data_gen: 7204.94 ms
+Server online: 17954.6 ms, offline: 2874.74 ms
+Client data_gen: 2968.55 ms
+Client online: 17970.8 ms, offline: 0.130405 ms
+AidServer online: 24385.6 ms, offline: 0.034324 ms
+Server data_gen: 7495.4 ms
+Server online: 20638.4 ms, offline: 820.03 ms
+Client data_gen: 3201.43 ms
+Client online: 20656 ms, offline: 0.112735 ms
+AidServer online: 26040.6 ms, offline: 0.019977 ms
+Server data_gen: 9183.58 ms
+Server online: 23031.1 ms, offline: 0.099051 ms
+Client data_gen: 1462.71 ms
+Client online: 23044.6 ms, offline: 6202.44 ms
+AidServer online: 29593.6 ms, offline: 0.022911 ms
+Server data_gen: 7127.28 ms
+Server online: 21231.1 ms, offline: 0.078867 ms
+Client data_gen: 1343.58 ms
+Client online: 21243.1 ms, offline: 4036.19 ms
+AidServer online: 27405.4 ms, offline: 0.038218 ms
+Server data_gen: 7072.13 ms
+Server online: 20449.1 ms, offline: 0.089681 ms
+Client data_gen: 1423.01 ms
+Client online: 20466.2 ms, offline: 3950.96 ms
+AidServer online: 26684.1 ms, offline: 0.041966 ms
+Server data_gen: 6931.35 ms
+Server online: 20622.2 ms, offline: 954.065 ms
+Client data_gen: 1372.99 ms
+Client online: 20636.7 ms, offline: 0.096133 ms
+AidServer online: 23754.2 ms, offline: 0.02611 ms
+Server data_gen: 54.8681 ms
+Server online: 6786.5 ms, offline: 2335.16 ms
+Client data_gen: 46.2506 ms
+Client online: 6795.69 ms, offline: 0.391558 ms
+AidServer online: 8120 ms, offline: 0.047571 ms
+Server data_gen: 20.561 ms
+Server online: 6809.7 ms, offline: 2973.94 ms
+AidServer online: 8442.2 ms, offline: 0.021967 ms
+Client data_gen: 33.7737 ms
+Client online: 6820.76 ms, offline: 0.150276 ms
+Server data_gen: 29.8673 ms
+Server online: 6724.52 ms, offline: 1732.28 ms
+Client data_gen: 6.72875 ms
+Client online: 6756.37 ms, offline: 0.090744 ms
+AidServer online: 7588.34 ms, offline: 0.056118 ms
+Server data_gen: 36.9242 ms
+Server online: 6869.47 ms, offline: 1623.54 ms
+Client data_gen: 8.02323 ms
+Client online: 6876.01 ms, offline: 0.102961 ms
+AidServer online: 7711.48 ms, offline: 0.098879 ms
+Server data_gen: 141.593 ms
+Server online: 8425.95 ms, offline: 1740.55 ms
+Client data_gen: 214.259 ms
+Client online: 8449.21 ms, offline: 0.12674 ms
+AidServer online: 9459.58 ms, offline: 0.117001 ms
+Server data_gen: 27.1563 ms
+Server online: 6818.25 ms, offline: 1934.78 ms
+Client data_gen: 26.4007 ms
+Client online: 6822.92 ms, offline: 0.179689 ms
+AidServer online: 7769.28 ms, offline: 0.065055 ms
+Server data_gen: 34.5096 ms
+Server online: 6908.56 ms, offline: 2100.4 ms
+Client data_gen: 15.1385 ms
+Client online: 6967.02 ms, offline: 0.105458 ms
+AidServer online: 8067.92 ms, offline: 0.038872 ms
+Server data_gen: 35.0308 ms
+Server online: 7082.68 ms, offline: 1493.26 ms
+Client data_gen: 21.2814 ms
+Client online: 7086.15 ms, offline: 0.180376 ms
+AidServer online: 7911.07 ms, offline: 0.096691 ms
+Server data_gen: 30.7148 ms
+Server online: 6627.35 ms, offline: 1635.94 ms
+Client data_gen: 13.9063 ms
+Client online: 6630.85 ms, offline: 0.130574 ms
+AidServer online: 7499.48 ms, offline: 0.09809 ms
+Server data_gen: 34.5862 ms
+Server online: 7033.61 ms, offline: 1588.21 ms
+Client data_gen: 17.6546 ms
+Client online: 7036.28 ms, offline: 0.10938 ms
+AidServer online: 7848.86 ms, offline: 0.293309 ms
+Server data_gen: 24.5818 ms
+Server online: 6786.75 ms, offline: 1373.59 ms
+Client data_gen: 8.69004 ms
+Client online: 6789.34 ms, offline: 0.103177 ms
+AidServer online: 7569.31 ms, offline: 0.112536 ms
+Server data_gen: 39.235 ms
+Server online: 6998.88 ms, offline: 1407.48 ms
+Client data_gen: 8.20809 ms
+Client online: 7002.05 ms, offline: 0.088725 ms
+AidServer online: 7758.33 ms, offline: 0.106047 ms
+AidServer online: 12219.4 ms, offline: 0.104504 ms
+Server data_gen: 35.1797 ms
+Server online: 7019.14 ms, offline: 5927.51 ms
+Client data_gen: 30.3731 ms
+Client online: 7025.66 ms, offline: 0.153177 ms
+AidServer online: 7817.52 ms, offline: 0.098573 ms
+Server data_gen: 35.4414 ms
+Server online: 7108.11 ms, offline: 1648.73 ms
+Client data_gen: 35.2663 ms
+Client online: 7113.91 ms, offline: 0.158954 ms
+AidServer online: 7856.16 ms, offline: 0.127706 ms
+Server data_gen: 63.8525 ms
+Server online: 7239.77 ms, offline: 1370.25 ms
+Client data_gen: 17.2102 ms
+Client online: 7248.18 ms, offline: 0.136142 ms
+Server data_gen: 66.9801 ms
+Server online: 7122.12 ms, offline: 1476.36 ms
+Client data_gen: 26.6785 ms
+Client online: 7200.25 ms, offline: 0.132959 ms
+AidServer online: 8012.94 ms, offline: 0.102828 ms
+Server data_gen: 58.2704 ms
+Server online: 7112.43 ms, offline: 1398.59 ms
+Client data_gen: 27.644 ms
+Client online: 7311.46 ms, offline: 0.102692 ms
+AidServer online: 8068.86 ms, offline: 0.100292 ms
+AidServer online: 8448.83 ms, offline: 0.03141 ms
+Server data_gen: 65.3709 ms
+Server online: 7782 ms, offline: 2036.46 ms
+Client data_gen: 72.1111 ms
+Client online: 7786.42 ms, offline: 0.132273 ms
+AidServer online: 7791.06 ms, offline: 0.063921 ms
+Server data_gen: 45.2628 ms
+Server online: 7163.87 ms, offline: 1348.48 ms
+Client data_gen: 23.2818 ms
+Client online: 7168.2 ms, offline: 0.108771 ms
+AidServer online: 8222.18 ms, offline: 0.181688 ms
+Server data_gen: 56.2408 ms
+Server online: 7709.41 ms, offline: 1296.92 ms
+Client data_gen: 23.2409 ms
+Client online: 7715.87 ms, offline: 0.389096 ms
+AidServer online: 7877.64 ms, offline: 0.107684 ms
+Server data_gen: 58.6954 ms
+Server online: 7454.88 ms, offline: 1256.9 ms
+Client data_gen: 31.8929 ms
+Client online: 7458.86 ms, offline: 0.116088 ms
+AidServer online: 7652.48 ms, offline: 0.118094 ms
+Server data_gen: 63.2347 ms
+Server online: 7196.15 ms, offline: 1313.38 ms
+Client data_gen: 24.1839 ms
+Client online: 7200.28 ms, offline: 0.088698 ms
+AidServer online: 7572.28 ms, offline: 0.112515 ms
+Server data_gen: 71.4381 ms
+Server online: 7001.03 ms, offline: 1472.12 ms
+Client data_gen: 25.9489 ms
+Client online: 7005.24 ms, offline: 0.140056 ms
+Server data_gen: 46.2391 ms
+Server online: 7105.32 ms, offline: 1848.07 ms
+Client data_gen: 46.2106 ms
+Client online: 7114.66 ms, offline: 0.123836 ms
+AidServer online: 8452.77 ms, offline: 0.023921 ms
+AidServer online: 7728.24 ms, offline: 0.13205 ms
+Server data_gen: 63.3699 ms
+Server online: 7109.48 ms, offline: 1601.15 ms
+Client data_gen: 32.7678 ms
+Client online: 7115.01 ms, offline: 0.134511 ms
+AidServer online: 9192.35 ms, offline: 0.098971 ms
+Server data_gen: 110.955 ms
+Server online: 8583.97 ms, offline: 1897.43 ms
+Client data_gen: 65.5821 ms
+Client online: 8601.91 ms, offline: 0.099443 ms
+Server data_gen: 130.734 ms
+Server online: 8180.81 ms, offline: 1315.4 ms
+AidServer online: 8969 ms, offline: 0.127385 ms
+Client data_gen: 121.95 ms
+Client online: 8197.43 ms, offline: 0.098348 ms
+AidServer online: 8993.06 ms, offline: 0.093897 ms
+Server data_gen: 171.03 ms
+Server online: 8356.17 ms, offline: 1190.23 ms
+Client data_gen: 87.0313 ms
+Client online: 8371.8 ms, offline: 0.091045 ms
+AidServer online: 9389.94 ms, offline: 0.111826 ms
+Server data_gen: 131.802 ms
+Server online: 8729.04 ms, offline: 1494.36 ms
+Client data_gen: 55.5012 ms
+Client online: 8742.45 ms, offline: 0.172052 ms
+AidServer online: 9244.84 ms, offline: 0.28576 ms
+Server data_gen: 178.384 ms
+Server online: 8607.71 ms, offline: 1262.03 ms
+Client data_gen: 96.6441 ms
+Client online: 8627.3 ms, offline: 0.121998 ms
+AidServer online: 8880.93 ms, offline: 0.096941 ms
+Server data_gen: 151.962 ms
+Server online: 8294.27 ms, offline: 1171.9 ms
+Client data_gen: 65.0846 ms
+Client online: 8311.03 ms, offline: 0.096407 ms
+AidServer online: 9047.17 ms, offline: 0.075053 ms
+Server data_gen: 152.312 ms
+Server online: 8430.86 ms, offline: 1118.39 ms
+Client data_gen: 79.7745 ms
+Client online: 8445.01 ms, offline: 0.132182 ms
+AidServer online: 9417.44 ms, offline: 0.095984 ms
+Server data_gen: 117.249 ms
+Server online: 8508.55 ms, offline: 1595.48 ms
+Client data_gen: 56.2064 ms
+Client online: 8520.73 ms, offline: 0.169686 ms
+Server data_gen: 181.765 ms
+Server online: 8279.01 ms, offline: 1279.55 ms
+Client data_gen: 89.3552 ms
+Client online: 8457.37 ms, offline: 0.091348 ms
+AidServer online: 9290.39 ms, offline: 0.127483 ms
+Server data_gen: 144.554 ms
+Server online: 8464.14 ms, offline: 1446.16 ms
+Client data_gen: 68.1564 ms
+Client online: 8656.92 ms, offline: 0.124131 ms
+AidServer online: 9450.26 ms, offline: 0.118896 ms
+Server data_gen: 130.673 ms
+Server online: 8592.25 ms, offline: 1113.17 ms
+Client data_gen: 99.2906 ms
+Client online: 8672.64 ms, offline: 0.151141 ms
+AidServer online: 9405.4 ms, offline: 0.029693 ms
+Server data_gen: 140.673 ms
+Server online: 8564.14 ms, offline: 1185.38 ms
+Client data_gen: 100.457 ms
+Client online: 8712.93 ms, offline: 0.100292 ms
+AidServer online: 9389.44 ms, offline: 0.098924 ms
+AidServer online: 8438.16 ms, offline: 0.030684 ms
+Server data_gen: 148.112 ms
+Server online: 9307.83 ms, offline: 979.999 ms
+Client data_gen: 134.944 ms
+Client online: 9319.77 ms, offline: 0.081722 ms
+Server data_gen: 150.316 ms
+Server online: 8563.79 ms, offline: 1264.72 ms
+Client data_gen: 99.9691 ms
+Client online: 8596.41 ms, offline: 0.094836 ms
+AidServer online: 9357.88 ms, offline: 0.05814 ms
+AidServer online: 9169.05 ms, offline: 0.063245 ms
+Server data_gen: 134.05 ms
+Server online: 8503.08 ms, offline: 1491.43 ms
+Client data_gen: 84.9442 ms
+Client online: 8521.13 ms, offline: 0.091282 ms
+AidServer online: 9282.53 ms, offline: 0.256755 ms
+Server data_gen: 160.123 ms
+Server online: 8568.57 ms, offline: 1266.95 ms
+Client data_gen: 144.42 ms
+Client online: 8580.71 ms, offline: 0.154908 ms
+Server data_gen: 151.05 ms
+Server online: 8451.48 ms, offline: 1301.29 ms
+Client data_gen: 113.642 ms
+Client online: 8486.12 ms, offline: 0.121248 ms
+AidServer online: 9307.45 ms, offline: 0.107758 ms
+AidServer online: 9042.73 ms, offline: 0.099799 ms
+Server data_gen: 355.822 ms
+Server online: 7818.95 ms, offline: 1938.37 ms
+Client data_gen: 63.6591 ms
+Client online: 7828.68 ms, offline: 0.102029 ms
+Server data_gen: 418.62 ms
+Server online: 7163.77 ms, offline: 1114.93 ms
+Client data_gen: 107.782 ms
+Client online: 7340.44 ms, offline: 0.109006 ms
+AidServer online: 8124.52 ms, offline: 0.116658 ms
+Server data_gen: 490.642 ms
+Server online: 7310.36 ms, offline: 754.507 ms
+Client data_gen: 82.3173 ms
+Client online: 7532.68 ms, offline: 0.098559 ms
+AidServer online: 8187.71 ms, offline: 0.098473 ms
+Server data_gen: 495.547 ms
+Server online: 7594.45 ms, offline: 770.508 ms
+Client data_gen: 114.929 ms
+Client online: 7646.11 ms, offline: 0.134725 ms
+AidServer online: 8312.77 ms, offline: 0.145186 ms
+Server data_gen: 417.556 ms
+Server online: 7467.88 ms, offline: 819.954 ms
+Client data_gen: 97.773 ms
+Client online: 7653.68 ms, offline: 0.10731 ms
+AidServer online: 8368.18 ms, offline: 0.093592 ms
+AidServer online: 8186.4 ms, offline: 0.039995 ms
+Server data_gen: 423.026 ms
+Server online: 7561.11 ms, offline: 988.356 ms
+Client data_gen: 95.2975 ms
+Client online: 7564.24 ms, offline: 0.103013 ms
+AidServer online: 8417.82 ms, offline: 0.100963 ms
+Server data_gen: 374.511 ms
+Server online: 8137.05 ms, offline: 943.497 ms
+Client data_gen: 46.6504 ms
+Client online: 8141.28 ms, offline: 0.117124 ms
+Server data_gen: 474.535 ms
+Server online: 7325.21 ms, offline: 1276.17 ms
+Client data_gen: 101.03 ms
+Client online: 7476.66 ms, offline: 0.082354 ms
+AidServer online: 8370.69 ms, offline: 0.123777 ms
+AidServer online: 8258.7 ms, offline: 0.115668 ms
+Server data_gen: 446.583 ms
+Server online: 7549.58 ms, offline: 894.271 ms
+Client data_gen: 98.8737 ms
+Client online: 7553.2 ms, offline: 0.144915 ms
+Server data_gen: 403.786 ms
+Server online: 7384.78 ms, offline: 974.636 ms
+Client data_gen: 100.911 ms
+Client online: 7579.53 ms, offline: 0.150824 ms
+AidServer online: 8312.22 ms, offline: 0.119737 ms
+Server data_gen: 490.47 ms
+Server online: 7876.64 ms, offline: 1012.25 ms
+Client data_gen: 113.767 ms
+Client online: 7964.29 ms, offline: 0.124303 ms
+AidServer online: 8738.51 ms, offline: 0.128456 ms
+AidServer online: 8587.61 ms, offline: 0.040185 ms
+Server data_gen: 466.005 ms
+Server online: 8142.15 ms, offline: 985.183 ms
+Client data_gen: 180.295 ms
+Client online: 8144.66 ms, offline: 0.163633 ms
+Server data_gen: 500.044 ms
+Server online: 7757.23 ms, offline: 2096.87 ms
+Client data_gen: 161.139 ms
+Client online: 7827.83 ms, offline: 0.085171 ms
+AidServer online: 9468.84 ms, offline: 0.045145 ms
+AidServer online: 8234.63 ms, offline: 0.098131 ms
+Server data_gen: 496.552 ms
+Server online: 7680.13 ms, offline: 846.349 ms
+Client data_gen: 142.287 ms
+Client online: 7683.24 ms, offline: 0.197823 ms
+Server data_gen: 508.273 ms
+Server online: 7644.41 ms, offline: 1072.83 ms
+Client data_gen: 133.89 ms
+Client online: 7648.07 ms, offline: 0.146933 ms
+AidServer online: 8600.04 ms, offline: 0.092379 ms
+Server data_gen: 513.716 ms
+Server online: 7538.37 ms, offline: 1325.91 ms
+Client data_gen: 131.631 ms
+Client online: 7549.73 ms, offline: 0.091169 ms
+AidServer online: 8884.33 ms, offline: 0.026325 ms
+AidServer online: 8368.47 ms, offline: 0.044375 ms
+Server data_gen: 510.771 ms
+Server online: 7738.29 ms, offline: 1074.25 ms
+Client data_gen: 134.22 ms
+Client online: 7741.21 ms, offline: 0.057662 ms
+AidServer online: 8792.15 ms, offline: 0.052109 ms
+Server data_gen: 487.172 ms
+Server online: 8193.69 ms, offline: 837.812 ms
+Client data_gen: 131.042 ms
+Client online: 8196.34 ms, offline: 0.08761 ms
+AidServer online: 10937.5 ms, offline: 0.022879 ms
+Server data_gen: 1446.18 ms
+Server online: 10224.7 ms, offline: 0.107936 ms
+Client data_gen: 129.902 ms
+Client online: 10228.5 ms, offline: 65.5762 ms
+AidServer online: 11371.3 ms, offline: 0.032828 ms
+Server data_gen: 1410.68 ms
+Server online: 9869.92 ms, offline: 2599.53 ms
+Client data_gen: 114.426 ms
+Client online: 9873.37 ms, offline: 0.087218 ms
+AidServer online: 9442.36 ms, offline: 0.0412 ms
+Server data_gen: 1462.24 ms
+Server online: 9970.6 ms, offline: 0.080045 ms
+Client data_gen: 116.824 ms
+Client online: 9976.52 ms, offline: 328.743 ms
+AidServer online: 9784.44 ms, offline: 0.022615 ms
+Server data_gen: 1357.14 ms
+Server online: 9185.42 ms, offline: 0.0694 ms
+Client data_gen: 109.335 ms
+Client online: 9192.11 ms, offline: 47.9783 ms
+Server data_gen: 1369.28 ms
+Server online: 8955.88 ms, offline: 0.283612 ms
+Client data_gen: 121.832 ms
+Client online: 8961.84 ms, offline: 28.3722 ms
+AidServer online: 9723.52 ms, offline: 0.024274 ms
+AidServer online: 10174.5 ms, offline: 0.022128 ms
+Server data_gen: 1443.69 ms
+Server online: 9523.21 ms, offline: 0.100657 ms
+Client data_gen: 121.815 ms
+Client online: 9529.02 ms, offline: 218.796 ms
+AidServer online: 10029.5 ms, offline: 0.021728 ms
+Server data_gen: 1406.76 ms
+Server online: 9475.14 ms, offline: 0.12586 ms
+Client data_gen: 113.594 ms
+Client online: 9479.85 ms, offline: 43.7663 ms
+Server data_gen: 1423.22 ms
+Server online: 9088.54 ms, offline: 0.092032 ms
+Client data_gen: 121.45 ms
+Client online: 9092.05 ms, offline: 21.4612 ms
+AidServer online: 9971.76 ms, offline: 0.047691 ms
+Server data_gen: 1696.53 ms
+Server online: 10033.9 ms, offline: 289.98 ms
+Client data_gen: 296.706 ms
+Client online: 10037.5 ms, offline: 0.07713 ms
+AidServer online: 11401.2 ms, offline: 0.025233 ms
+Server data_gen: 1834.47 ms
+Server online: 10029.7 ms, offline: 20.7076 ms
+Client data_gen: 388.583 ms
+Client online: 10315.5 ms, offline: 0.114659 ms
+AidServer online: 11666.4 ms, offline: 0.021688 ms
+Server data_gen: 2036.07 ms
+Server online: 10612.8 ms, offline: 0.078364 ms
+Client data_gen: 435.32 ms
+Client online: 10626.2 ms, offline: 489.883 ms
+AidServer online: 12157.5 ms, offline: 0.022408 ms
+Server data_gen: 1773.43 ms
+Server online: 10439.1 ms, offline: 12.4913 ms
+Client data_gen: 392.111 ms
+Client online: 10725.8 ms, offline: 0.095902 ms
+AidServer online: 11984.8 ms, offline: 0.025741 ms
+AidServer online: 10875.9 ms, offline: 0.02583 ms
+Server data_gen: 1821.38 ms
+Server online: 9754.83 ms, offline: 0.11998 ms
+Client data_gen: 339.721 ms
+Client online: 9758.73 ms, offline: 164.472 ms
+Server data_gen: 1664.75 ms
+Server online: 9260.96 ms, offline: 0.094299 ms
+Client data_gen: 274.94 ms
+Client online: 9337.98 ms, offline: 213.723 ms
+AidServer online: 10455.4 ms, offline: 0.038564 ms
+Server data_gen: 1656.4 ms
+Server online: 9202 ms, offline: 0.084646 ms
+Client data_gen: 258.065 ms
+Client online: 9277.22 ms, offline: 378.647 ms
+AidServer online: 10431.6 ms, offline: 0.020978 ms
+Server data_gen: 1651.19 ms
+Server online: 8834.2 ms, offline: 0.099384 ms
+Client data_gen: 260.668 ms
+Client online: 8984.75 ms, offline: 98.0576 ms
+AidServer online: 10190 ms, offline: 0.021196 ms
+AidServer online: 10433.3 ms, offline: 0.022642 ms
+Server data_gen: 1888.05 ms
+Server online: 9319.16 ms, offline: 0.069813 ms
+Client data_gen: 365.237 ms
+Client online: 9322.94 ms, offline: 214.128 ms
+AidServer online: 10307.9 ms, offline: 0.035881 ms
+Server data_gen: 1830.91 ms
+Server online: 9190.13 ms, offline: 0.072545 ms
+Client data_gen: 334.198 ms
+Client online: 9193.9 ms, offline: 489.819 ms
+AidServer online: 10749.9 ms, offline: 0.024572 ms
+Server data_gen: 1999.81 ms
+Server online: 9703.77 ms, offline: 0.073592 ms
+Client data_gen: 387.332 ms
+Client online: 9707.15 ms, offline: 429.088 ms
+AidServer online: 10423 ms, offline: 0.043923 ms
+Server data_gen: 1948.04 ms
+Server online: 9168.83 ms, offline: 0.080957 ms
+Client data_gen: 392.205 ms
+Client online: 9173.28 ms, offline: 410.196 ms
+AidServer online: 20244.3 ms, offline: 0.024199 ms
+Server data_gen: 5347.15 ms
+Server online: 16235.5 ms, offline: 0.091642 ms
+Client data_gen: 450.907 ms
+Client online: 16242.7 ms, offline: 3035.16 ms
+Server data_gen: 5390.56 ms
+Server online: 16224.6 ms, offline: 0.080904 ms
+Client data_gen: 399.536 ms
+Client online: 16256.6 ms, offline: 3832.77 ms
+AidServer online: 21092.8 ms, offline: 0.020057 ms
+AidServer online: 23723.3 ms, offline: 0.028188 ms
+Server data_gen: 5671.94 ms
+Server online: 18625.1 ms, offline: 0.087101 ms
+Client data_gen: 394.943 ms
+Client online: 18635.7 ms, offline: 4318.84 ms
+AidServer online: 23369.2 ms, offline: 0.020625 ms
+Server data_gen: 5677.94 ms
+Server online: 18993.3 ms, offline: 0.134134 ms
+Client data_gen: 468.176 ms
+Client online: 19003.1 ms, offline: 3861.2 ms
+Server data_gen: 5548.28 ms
+Server online: 17183.2 ms, offline: 0.128049 ms
+Client data_gen: 395.021 ms
+Client online: 17332 ms, offline: 4142.41 ms
+AidServer online: 22386.4 ms, offline: 0.020902 ms
+Server data_gen: 5503.5 ms
+Server online: 16218.9 ms, offline: 0.144841 ms
+Client data_gen: 452.845 ms
+Client online: 16226.9 ms, offline: 3901.26 ms
+AidServer online: 21139.7 ms, offline: 0.020471 ms
+AidServer online: 22354.8 ms, offline: 0.020126 ms
+Server data_gen: 5384.8 ms
+Server online: 17858.6 ms, offline: 0.118012 ms
+Client data_gen: 487.701 ms
+Client online: 17875.9 ms, offline: 3564.92 ms
+AidServer online: 24023 ms, offline: 0.020717 ms
+Server data_gen: 5414.47 ms
+Server online: 19232 ms, offline: 0.078652 ms
+Client data_gen: 392.065 ms
+Client online: 19240.4 ms, offline: 4007.71 ms
+Server data_gen: 6234.4 ms
+Server online: 15505.8 ms, offline: 0.092007 ms
+Client data_gen: 928.278 ms
+Client online: 15761.6 ms, offline: 3518.58 ms
+AidServer online: 20988.9 ms, offline: 0.022379 ms
+Server data_gen: 6354.32 ms
+Server online: 15906 ms, offline: 0.091732 ms
+Client data_gen: 1006.17 ms
+Client online: 15931.5 ms, offline: 4239.1 ms
+AidServer online: 21798.5 ms, offline: 0.024941 ms
+AidServer online: 22798.7 ms, offline: 0.026522 ms
+Server data_gen: 6488.07 ms
+Server online: 16950.1 ms, offline: 0.084857 ms
+Client data_gen: 989.022 ms
+Client online: 16951.5 ms, offline: 4301.72 ms
+Server data_gen: 6276.93 ms
+Server online: 16881.2 ms, offline: 0.083526 ms
+Client data_gen: 1099.02 ms
+Client online: 17144.7 ms, offline: 3897.14 ms
+AidServer online: 22832.9 ms, offline: 0.020461 ms
+AidServer online: 22774 ms, offline: 0.027099 ms
+Server data_gen: 5379.9 ms
+Server online: 18260.8 ms, offline: 0.084141 ms
+Client data_gen: 522.328 ms
+Client online: 18296.8 ms, offline: 3455.32 ms
+AidServer online: 19532.7 ms, offline: 0.037728 ms
+Server data_gen: 5294.77 ms
+Server online: 15399 ms, offline: 0.080899 ms
+Client data_gen: 420.369 ms
+Client online: 15403.7 ms, offline: 3300.43 ms
+AidServer online: 21613.6 ms, offline: 0.022995 ms
+Server data_gen: 5174.73 ms
+Server online: 17184.1 ms, offline: 0.071961 ms
+Client data_gen: 548.278 ms
+Client online: 17202.8 ms, offline: 3483.45 ms
+Server data_gen: 6335.19 ms
+Server online: 17739 ms, offline: 0.085216 ms
+Client data_gen: 1102.5 ms
+Client online: 17995.6 ms, offline: 3997.02 ms
+AidServer online: 23765.5 ms, offline: 0.021535 ms
+Server data_gen: 6076.93 ms
+Server online: 15458.7 ms, offline: 0.108675 ms
+Client data_gen: 941.842 ms
+Client online: 15489.4 ms, offline: 3496.63 ms
+AidServer online: 20683.3 ms, offline: 0.024561 ms
+Server data_gen: 6229.95 ms
+Server online: 16122.3 ms, offline: 0.103678 ms
+Client data_gen: 898.302 ms
+Client online: 16185.1 ms, offline: 4182.33 ms
+AidServer online: 21831.9 ms, offline: 0.259762 ms
+Server data_gen: 6442.82 ms
+Server online: 18658.2 ms, offline: 0.082883 ms
+Client data_gen: 945.612 ms
+Client online: 18788.4 ms, offline: 4301.46 ms
+AidServer online: 24699.2 ms, offline: 0.020463 ms
+Server data_gen: 6492.84 ms
+Server online: 20391 ms, offline: 0.071619 ms
+Client data_gen: 1089.46 ms
+Client online: 20560.1 ms, offline: 4203.74 ms
+AidServer online: 26390.2 ms, offline: 0.029712 ms
+Server data_gen: 6460.91 ms
+Server online: 19979.5 ms, offline: 0.069393 ms
+Client data_gen: 1095.83 ms
+Client online: 20272.1 ms, offline: 4168.47 ms
+AidServer online: 26120.1 ms, offline: 0.019944 ms
+Server data_gen: 10828.3 ms
+Server online: 21678.4 ms, offline: 2.00641 ms
+Client data_gen: 1561.53 ms
+Client online: 22206.7 ms, offline: 8079.05 ms
+AidServer online: 32497.6 ms, offline: 0.01979 ms
+AidServer online: 22911.1 ms, offline: 0.021566 ms
+Server data_gen: 6924.21 ms
+Server online: 16682.2 ms, offline: 0.06607 ms
+Client data_gen: 1223.85 ms
+Client online: 16683.9 ms, offline: 4413.7 ms
+AidServer online: 22107.4 ms, offline: 0.020586 ms
+Server data_gen: 6730.81 ms
+Server online: 16347.1 ms, offline: 0.124853 ms
+Client data_gen: 1223.13 ms
+Client online: 16348.5 ms, offline: 4397.11 ms
+AidServer online: 22080.1 ms, offline: 0.022482 ms
+Server data_gen: 6663.36 ms
+Server online: 16133.9 ms, offline: 0.102286 ms
+Client data_gen: 1182.82 ms
+Client online: 16136.6 ms, offline: 4246.43 ms
+AidServer online: 22559.8 ms, offline: 0.045257 ms
+Server data_gen: 6772.77 ms
+Server online: 16360 ms, offline: 0.088568 ms
+Client data_gen: 1228.55 ms
+Client online: 16361.9 ms, offline: 4551.67 ms
+AidServer online: 24664.8 ms, offline: 0.046386 ms
+Server data_gen: 6995.38 ms
+Server online: 18427.8 ms, offline: 0.100938 ms
+Client data_gen: 1386.26 ms
+Client online: 18439.8 ms, offline: 4584.54 ms
+AidServer online: 25115.6 ms, offline: 0.02226 ms
+Server data_gen: 6899.06 ms
+Server online: 19061.1 ms, offline: 0.093357 ms
+Client data_gen: 1327.61 ms
+Client online: 19073.1 ms, offline: 4332.75 ms
+AidServer online: 26476.7 ms, offline: 0.026076 ms
+Server data_gen: 7125.45 ms
+Server online: 20125.8 ms, offline: 0.080688 ms
+Client data_gen: 1384.27 ms
+Client online: 20139.8 ms, offline: 4313.21 ms
+AidServer online: 23853.4 ms, offline: 0.019826 ms
+Server data_gen: 7038.66 ms
+Server online: 17736.3 ms, offline: 0.121049 ms
+Client data_gen: 1370.38 ms
+Client online: 17738.9 ms, offline: 4319.98 ms
+Server data_gen: 7187.59 ms
+Server online: 17463.5 ms, offline: 0.064199 ms
+Client data_gen: 1417.03 ms
+Client online: 17487 ms, offline: 4305.73 ms
+AidServer online: 23769.2 ms, offline: 0.01895 ms
+AidServer online: 23049.9 ms, offline: 0.025018 ms
+Server data_gen: 6844.38 ms
+Server online: 17647.4 ms, offline: 0.114114 ms
+Client data_gen: 1369.43 ms
+Client online: 17661.7 ms, offline: 4020.18 ms
+AidServer online: 25499.5 ms, offline: 0.046235 ms
+Server data_gen: 6082.21 ms
+Server online: 20568.8 ms, offline: 0.078112 ms
+Client data_gen: 1527.96 ms
+Client online: 20582.1 ms, offline: 3378.92 ms
+AidServer online: 24140.1 ms, offline: 0.024424 ms
+Server data_gen: 5915.18 ms
+Server online: 19135.1 ms, offline: 0.077379 ms
+Client data_gen: 1313.5 ms
+Client online: 19147.9 ms, offline: 3317.95 ms
+AidServer online: 23534.9 ms, offline: 0.022669 ms
+Server data_gen: 5868.69 ms
+Server online: 18400.2 ms, offline: 0.082836 ms
+Client data_gen: 1362.47 ms
+Client online: 18414.5 ms, offline: 3395.28 ms
+AidServer online: 22366.3 ms, offline: 0.029278 ms
+Server data_gen: 5865.44 ms
+Server online: 17611.2 ms, offline: 0.08406 ms
+Client data_gen: 1344.67 ms
+Client online: 17622.2 ms, offline: 2929.67 ms
+AidServer online: 21435.5 ms, offline: 0.019968 ms
+Server data_gen: 5960.71 ms
+Server online: 17785.9 ms, offline: 0.082095 ms
+Client data_gen: 1452.44 ms
+Client online: 17795.1 ms, offline: 3030.42 ms
+AidServer online: 25104.9 ms, offline: 0.019779 ms
+Server data_gen: 6157.27 ms
+Server online: 19834.5 ms, offline: 0.073958 ms
+Client data_gen: 1367.56 ms
+Client online: 19849 ms, offline: 3606.21 ms
+AidServer online: 25466.9 ms, offline: 0.020951 ms
+Server data_gen: 6063.47 ms
+Server online: 20491.8 ms, offline: 0.081652 ms
+Client data_gen: 1424.87 ms
+Client online: 20504.4 ms, offline: 3241.31 ms
+AidServer online: 22581.8 ms, offline: 0.026203 ms
+Server data_gen: 5782.4 ms
+Server online: 17648.2 ms, offline: 0.097811 ms
+Client data_gen: 1323.81 ms
+Client online: 17659.7 ms, offline: 3241.05 ms
+AidServer online: 20709.3 ms, offline: 0.022073 ms
+Server data_gen: 5615.14 ms
+Server online: 15918.5 ms, offline: 0.15296 ms
+Client data_gen: 1171.15 ms
+Client online: 15919.9 ms, offline: 3189.33 ms
+Server data_gen: 444.15 ms
+Server online: 7749.85 ms, offline: 840.49 ms
+Client data_gen: 95.8921 ms
+Client online: 7854.9 ms, offline: 0.080699 ms
+AidServer online: 8592.45 ms, offline: 0.055667 ms
+Server data_gen: 448.002 ms
+Server online: 7214.95 ms, offline: 834.661 ms
+Client data_gen: 107.076 ms
+Client online: 7322.85 ms, offline: 0.087673 ms
+AidServer online: 7995.25 ms, offline: 0.115608 ms
+AidServer online: 6840.49 ms, offline: 0.099673 ms
+Server data_gen: 43.8391 ms
+Server online: 6548.62 ms, offline: 1449.92 ms
+Client data_gen: 6.08529 ms
+Client online: 6551.16 ms, offline: 0.085058 ms
+Server data_gen: 29.5591 ms
+Server online: 5909.41 ms, offline: 1097.77 ms
+Client data_gen: 33.4084 ms
+Client online: 5915.02 ms, offline: 0.204358 ms
+AidServer online: 6504.84 ms, offline: 0.101008 ms
+Server data_gen: 32.8082 ms
+Server online: 5439.08 ms, offline: 1216.18 ms
+Client data_gen: 15.728 ms
+Client online: 5711.34 ms, offline: 0.113587 ms
+AidServer online: 6427.93 ms, offline: 0.132337 ms
+AidServer online: 6876.05 ms, offline: 0.154535 ms
+Server data_gen: 7.67706 ms
+Server online: 6614.19 ms, offline: 1387.59 ms
+Client data_gen: 34.3913 ms
+Client online: 6619.13 ms, offline: 0.198185 ms
+AidServer online: 6910.29 ms, offline: 0.170578 ms
+Server data_gen: 30.8929 ms
+Server online: 6669.57 ms, offline: 1187.79 ms
+Client data_gen: 45.1678 ms
+Client online: 6673.56 ms, offline: 0.318029 ms
+AidServer online: 7062.97 ms, offline: 0.10152 ms
+Server data_gen: 27.7943 ms
+Server online: 6811.3 ms, offline: 1097.43 ms
+Client data_gen: 23.4262 ms
+Client online: 6816.59 ms, offline: 0.134987 ms
+AidServer online: 7024.48 ms, offline: 0.01968 ms
+Server data_gen: 25.1653 ms
+Server online: 6734.8 ms, offline: 1059.53 ms
+Client data_gen: 21.6375 ms
+Client online: 6741.11 ms, offline: 0.221014 ms
+AidServer online: 7305.07 ms, offline: 0.142678 ms
+Server data_gen: 28.7171 ms
+Server online: 7058.87 ms, offline: 4581.5 ms
+Client data_gen: 10.269 ms
+Client online: 7063.84 ms, offline: 0.136971 ms
+AidServer online: 7305.54 ms, offline: 0.022195 ms
+Server data_gen: 15.9696 ms
+Server online: 7013.55 ms, offline: 2098.13 ms
+Client data_gen: 35.5069 ms
+Client online: 7018.63 ms, offline: 0.332921 ms
+Server data_gen: 33.3846 ms
+Server online: 6005.66 ms, offline: 1184.9 ms
+Client data_gen: 17.9774 ms
+Client online: 6008.75 ms, offline: 0.122405 ms
+AidServer online: 6641.33 ms, offline: 0.137882 ms
+Server data_gen: 35.9746 ms
+Server online: 5789.06 ms, offline: 1242.32 ms
+Client data_gen: 50.2417 ms
+Client online: 5944.64 ms, offline: 0.327 ms
+AidServer online: 6563.93 ms, offline: 0.066781 ms
+Server data_gen: 28.0491 ms
+Server online: 6066.06 ms, offline: 1165.72 ms
+Client data_gen: 47.465 ms
+Client online: 6256.38 ms, offline: 0.210668 ms
+AidServer online: 6848.84 ms, offline: 0.052229 ms
+Server data_gen: 33.5566 ms
+Server online: 6061.44 ms, offline: 1589.52 ms
+Client data_gen: 9.20437 ms
+Client online: 6066.18 ms, offline: 0.107208 ms
+AidServer online: 6748.22 ms, offline: 0.165038 ms
+AidServer online: 6319.87 ms, offline: 0.097054 ms
+Server data_gen: 19.202 ms
+Server online: 5770.62 ms, offline: 1214.78 ms
+Client data_gen: 7.77337 ms
+Client online: 5773.33 ms, offline: 0.092015 ms
+AidServer online: 6127.82 ms, offline: 0.10184 ms
+Server data_gen: 32.3899 ms
+Server online: 5702.3 ms, offline: 1135.88 ms
+Client data_gen: 35.9473 ms
+Client online: 5705.38 ms, offline: 0.156031 ms
+Server data_gen: 19.6679 ms
+Server online: 5704.41 ms, offline: 1109.27 ms
+Client data_gen: 24.4695 ms
+Client online: 5803.21 ms, offline: 0.201928 ms
+AidServer online: 6407.65 ms, offline: 0.11949 ms
+Server data_gen: 30.8924 ms
+Server online: 5798.4 ms, offline: 1314.71 ms
+Client data_gen: 7.4883 ms
+Client online: 5909.21 ms, offline: 0.087462 ms
+AidServer online: 6641.69 ms, offline: 0.13589 ms
+AidServer online: 7351.39 ms, offline: 0.075782 ms
+Server data_gen: 24.4693 ms
+Server online: 6825.14 ms, offline: 1105.39 ms
+Client data_gen: 18.2861 ms
+Client online: 6827.01 ms, offline: 0.126718 ms
+AidServer online: 7927.43 ms, offline: 0.104207 ms
+Server data_gen: 26.2564 ms
+Server online: 7375.86 ms, offline: 1258.62 ms
+Client data_gen: 65.763 ms
+Client online: 7377.8 ms, offline: 0.457955 ms
+Server data_gen: 31.2046 ms
+Server online: 7382.81 ms, offline: 1225.03 ms
+Client data_gen: 20.1731 ms
+Client online: 7401.56 ms, offline: 0.144591 ms
+AidServer online: 8033.62 ms, offline: 0.065784 ms
+AidServer online: 7335.85 ms, offline: 0.149902 ms
+Server data_gen: 30.2521 ms
+Server online: 6956.15 ms, offline: 1327.09 ms
+Client data_gen: 21.7672 ms
+Client online: 6961.34 ms, offline: 0.170622 ms
+AidServer online: 6042.56 ms, offline: 0.042437 ms
+Server data_gen: 29.8994 ms
+Server online: 7379.72 ms, offline: 951.171 ms
+Client data_gen: 29.0736 ms
+Client online: 7386.3 ms, offline: 0.138353 ms
+AidServer online: 6602.35 ms, offline: 0.139797 ms
+Server data_gen: 32.2369 ms
+Server online: 6382.76 ms, offline: 1082.49 ms
+Client data_gen: 16.1372 ms
+Client online: 6387.16 ms, offline: 0.153226 ms
+AidServer online: 7262.5 ms, offline: 0.129071 ms
+Server data_gen: 30.1567 ms
+Server online: 6913.44 ms, offline: 1429.37 ms
+Client data_gen: 9.5084 ms
+Client online: 6919.93 ms, offline: 0.109704 ms
+AidServer online: 6507.64 ms, offline: 0.096888 ms
+Server data_gen: 12.0816 ms
+Server online: 6590.11 ms, offline: 1168.06 ms
+Client data_gen: 38.9825 ms
+Client online: 6596.58 ms, offline: 0.208835 ms
+Server data_gen: 55.2828 ms
+Server online: 5608.28 ms, offline: 1334.46 ms
+Client data_gen: 13.4506 ms
+Client online: 5611.25 ms, offline: 0.106642 ms
+AidServer online: 6376.33 ms, offline: 0.120496 ms
+Server data_gen: 56.225 ms
+Server online: 5798.04 ms, offline: 1188.68 ms
+Client data_gen: 26.6542 ms
+Client online: 5964.81 ms, offline: 0.135388 ms
+AidServer online: 6606.06 ms, offline: 0.068062 ms
+Server data_gen: 103.451 ms
+Server online: 5747.93 ms, offline: 1198.02 ms
+Client data_gen: 27.5079 ms
+Client online: 5795.9 ms, offline: 0.149462 ms
+AidServer online: 6510.58 ms, offline: 0.047812 ms
+Server data_gen: 59.3346 ms
+Server online: 6059.96 ms, offline: 1273.48 ms
+Client data_gen: 9.73706 ms
+Client online: 6384.63 ms, offline: 0.098484 ms
+AidServer online: 6993.43 ms, offline: 0.094961 ms
+Server data_gen: 60.2834 ms
+Server online: 6278.09 ms, offline: 3466.8 ms
+Client data_gen: 31.6073 ms
+Client online: 6394.15 ms, offline: 0.132422 ms
+AidServer online: 9387.57 ms, offline: 0.132971 ms
+Server data_gen: 48.2247 ms
+Server online: 5762.71 ms, offline: 2800.59 ms
+Client data_gen: 34.4704 ms
+Client online: 5951.97 ms, offline: 0.141398 ms
+AidServer online: 6650.07 ms, offline: 0.03689 ms
+AidServer online: 6503.76 ms, offline: 0.041729 ms
+Server data_gen: 59.4748 ms
+Server online: 5930.71 ms, offline: 1250.52 ms
+Client data_gen: 30.5801 ms
+Client online: 5933.13 ms, offline: 0.147641 ms
+Server data_gen: 57.3495 ms
+Server online: 5923.95 ms, offline: 1196.38 ms
+Client data_gen: 28.6326 ms
+Client online: 6063.72 ms, offline: 0.124153 ms
+AidServer online: 6754.02 ms, offline: 0.096004 ms
+Server data_gen: 36.0062 ms
+Server online: 5860.59 ms, offline: 1159.43 ms
+Client data_gen: 46.0611 ms
+Client online: 5934.24 ms, offline: 0.172584 ms
+AidServer online: 6604.58 ms, offline: 0.105875 ms
+Server data_gen: 36.1088 ms
+Server online: 5988.27 ms, offline: 1235.01 ms
+Client data_gen: 74.041 ms
+Client online: 6065.22 ms, offline: 0.348389 ms
+AidServer online: 6818.94 ms, offline: 0.16125 ms
+Server data_gen: 35.2613 ms
+Server online: 6120.6 ms, offline: 1212.51 ms
+Client data_gen: 65.1309 ms
+Client online: 6238.08 ms, offline: 0.378855 ms
+AidServer online: 6956.59 ms, offline: 0.122415 ms
+Server data_gen: 59.8522 ms
+Server online: 6055.5 ms, offline: 1375.45 ms
+Client data_gen: 16.4612 ms
+Client online: 6322.75 ms, offline: 0.105352 ms
+AidServer online: 7186.74 ms, offline: 0.118925 ms
+AidServer online: 7892.67 ms, offline: 0.136072 ms
+Server data_gen: 31.8204 ms
+Server online: 7306.92 ms, offline: 1508.24 ms
+Client data_gen: 77.8276 ms
+Client online: 7309.41 ms, offline: 0.385526 ms
+AidServer online: 7428.3 ms, offline: 0.101754 ms
+Server data_gen: 97.5566 ms
+Server online: 6916.1 ms, offline: 1321.21 ms
+Client data_gen: 17.4306 ms
+Client online: 6918.45 ms, offline: 0.120416 ms
+AidServer online: 7246.21 ms, offline: 0.110509 ms
+Server data_gen: 63.1404 ms
+Server online: 6807.52 ms, offline: 1144.41 ms
+Client data_gen: 38.4782 ms
+Client online: 6809.96 ms, offline: 0.143596 ms
+AidServer online: 6831.73 ms, offline: 0.104873 ms
+Server data_gen: 115.877 ms
+Server online: 6773.27 ms, offline: 1306.37 ms
+Client data_gen: 33.4807 ms
+Client online: 6783.32 ms, offline: 0.223517 ms
+AidServer online: 9373.31 ms, offline: 0.162352 ms
+Server data_gen: 126.205 ms
+Server online: 8831.3 ms, offline: 1410.7 ms
+Client data_gen: 264.945 ms
+Client online: 8872.69 ms, offline: 0.105833 ms
+AidServer online: 8837.42 ms, offline: 0.116608 ms
+Server data_gen: 190.586 ms
+Server online: 8486.59 ms, offline: 1127.89 ms
+Client data_gen: 219.133 ms
+Client online: 8513.73 ms, offline: 0.079507 ms
+AidServer online: 8742.85 ms, offline: 0.078498 ms
+Server data_gen: 126.45 ms
+Server online: 8441.09 ms, offline: 2738.17 ms
+Client data_gen: 200.592 ms
+Client online: 8468.8 ms, offline: 0.124535 ms
+AidServer online: 9275.32 ms, offline: 0.112484 ms
+Server data_gen: 112.728 ms
+Server online: 8483.01 ms, offline: 1603.67 ms
+Client data_gen: 126.705 ms
+Client online: 8516.44 ms, offline: 0.171098 ms
+AidServer online: 8996.14 ms, offline: 0.100732 ms
+Server data_gen: 177.222 ms
+Server online: 8545.53 ms, offline: 1296.65 ms
+Client data_gen: 257.143 ms
+Client online: 8575.6 ms, offline: 0.081177 ms
+AidServer online: 9174.71 ms, offline: 0.062375 ms
+Server data_gen: 135.808 ms
+Server online: 8905.8 ms, offline: 1297.16 ms
+Client data_gen: 261.209 ms
+Client online: 8933.26 ms, offline: 0.107229 ms
+AidServer online: 9070.39 ms, offline: 0.141611 ms
+Server data_gen: 152.967 ms
+Server online: 8668.22 ms, offline: 1518.65 ms
+Client data_gen: 141.868 ms
+Client online: 8696.63 ms, offline: 0.139155 ms
+AidServer online: 9284.59 ms, offline: 0.159167 ms
+Server data_gen: 168.075 ms
+Server online: 9194.58 ms, offline: 1223.28 ms
+Client data_gen: 180.269 ms
+Client online: 9240.4 ms, offline: 0.086726 ms
+AidServer online: 9152.55 ms, offline: 0.109366 ms
+Server data_gen: 149.802 ms
+Server online: 8606.07 ms, offline: 1302.11 ms
+Client data_gen: 260.37 ms
+Client online: 8634.02 ms, offline: 0.098473 ms
+Server data_gen: 117.005 ms
+Server online: 7001.15 ms, offline: 1169.59 ms
+Client data_gen: 54.4584 ms
+Client online: 7198.98 ms, offline: 0.130264 ms
+AidServer online: 7864.43 ms, offline: 0.044704 ms
+Server data_gen: 115.994 ms
+Server online: 6131.1 ms, offline: 1195.32 ms
+Client data_gen: 120.025 ms
+Client online: 6212.76 ms, offline: 0.202858 ms
+AidServer online: 6992.15 ms, offline: 0.098446 ms
+Server data_gen: 158.224 ms
+Server online: 6099.81 ms, offline: 1017.39 ms
+Client data_gen: 56.4364 ms
+Client online: 6209.44 ms, offline: 0.21902 ms
+AidServer online: 6859.61 ms, offline: 0.079966 ms
+AidServer online: 7014.11 ms, offline: 0.102003 ms
+Server data_gen: 145.502 ms
+Server online: 6368.34 ms, offline: 1132.92 ms
+Client data_gen: 45.1368 ms
+Client online: 6373.38 ms, offline: 0.187818 ms
+Server data_gen: 160.983 ms
+Server online: 7371.57 ms, offline: 1142.77 ms
+Client data_gen: 174.758 ms
+Client online: 7513.52 ms, offline: 0.112658 ms
+AidServer online: 8246.2 ms, offline: 0.100708 ms
+Server data_gen: 201.671 ms
+Server online: 7857.22 ms, offline: 532.718 ms
+Client data_gen: 161.639 ms
+Client online: 7870.08 ms, offline: 0.081632 ms
+AidServer online: 9507.22 ms, offline: 0.137013 ms
+AidServer online: 8410.6 ms, offline: 0.097729 ms
+Server data_gen: 169.445 ms
+Server online: 7632.87 ms, offline: 1322.75 ms
+Client data_gen: 199.889 ms
+Client online: 7644.31 ms, offline: 0.084587 ms
+AidServer online: 8378.78 ms, offline: 0.100461 ms
+Server data_gen: 198.574 ms
+Server online: 7574.39 ms, offline: 1180.43 ms
+Client data_gen: 175.085 ms
+Client online: 7588.91 ms, offline: 0.10626 ms
+Server data_gen: 134.288 ms
+Server online: 7847.3 ms, offline: 1062.64 ms
+Client data_gen: 126.653 ms
+Client online: 7948.58 ms, offline: 0.086182 ms
+AidServer online: 8629.85 ms, offline: 0.037004 ms
+AidServer online: 6690.74 ms, offline: 0.109394 ms
+Server data_gen: 142.018 ms
+Server online: 5946.07 ms, offline: 1294.02 ms
+Client data_gen: 108.037 ms
+Client online: 5948.33 ms, offline: 0.11173 ms
+Server data_gen: 145.119 ms
+Server online: 6115.81 ms, offline: 2707.24 ms
+Client data_gen: 57.1934 ms
+Client online: 6183.89 ms, offline: 0.122198 ms
+AidServer online: 8531.21 ms, offline: 0.113917 ms
+Server data_gen: 136.041 ms
+Server online: 5909.62 ms, offline: 1221.7 ms
+Client data_gen: 107.181 ms
+Client online: 5969.95 ms, offline: 0.140416 ms
+AidServer online: 6773.35 ms, offline: 0.171611 ms
+Server data_gen: 170.653 ms
+Server online: 7087.82 ms, offline: 1290.13 ms
+Client data_gen: 209.355 ms
+Client online: 7215.09 ms, offline: 0.092491 ms
+AidServer online: 8031.2 ms, offline: 0.097513 ms
+AidServer online: 8507.72 ms, offline: 0.024282 ms
+Server data_gen: 148.754 ms
+Server online: 7985.18 ms, offline: 1314.71 ms
+Client data_gen: 55.4097 ms
+Client online: 7989.33 ms, offline: 0.10437 ms
+AidServer online: 7749.01 ms, offline: 0.153394 ms
+Server data_gen: 126.159 ms
+Server online: 7170.65 ms, offline: 1303.47 ms
+Client data_gen: 39.381 ms
+Client online: 7173.04 ms, offline: 0.106995 ms
+AidServer online: 9017.22 ms, offline: 0.138576 ms
+Server data_gen: 158.992 ms
+Server online: 8533.92 ms, offline: 1514.15 ms
+Client data_gen: 215.997 ms
+Client online: 8546.7 ms, offline: 0.087803 ms
+AidServer online: 10188.3 ms, offline: 0.15928 ms
+Server data_gen: 177.169 ms
+Server online: 8654.25 ms, offline: 2265.87 ms
+Client data_gen: 137.623 ms
+Client online: 8665.77 ms, offline: 0.092375 ms
+AidServer online: 9081.18 ms, offline: 0.025181 ms
+Server data_gen: 170.005 ms
+Server online: 8531.76 ms, offline: 1116.59 ms
+Client data_gen: 176.084 ms
+Client online: 8542.42 ms, offline: 0.081842 ms
+Server data_gen: 186.094 ms
+Server online: 8598.4 ms, offline: 2412.48 ms
+Client data_gen: 206.924 ms
+Client online: 8616.18 ms, offline: 0.182369 ms
+AidServer online: 10629.2 ms, offline: 0.115983 ms
+AidServer online: 9583.03 ms, offline: 0.117419 ms
+Server data_gen: 171.279 ms
+Server online: 8698.46 ms, offline: 1374.1 ms
+Client data_gen: 255.555 ms
+Client online: 8714.49 ms, offline: 0.099413 ms
+AidServer online: 9700.24 ms, offline: 0.132929 ms
+Server data_gen: 162.437 ms
+Server online: 9136.85 ms, offline: 1145.28 ms
+Client data_gen: 135.83 ms
+Client online: 9149.67 ms, offline: 0.14154 ms
+Server data_gen: 188.62 ms
+Server online: 9241.87 ms, offline: 4536.63 ms
+AidServer online: 13459.7 ms, offline: 0.160294 ms
+Client data_gen: 214.986 ms
+Client online: 9256.67 ms, offline: 0.110352 ms
+AidServer online: 10115.2 ms, offline: 0.064013 ms
+Server data_gen: 186.727 ms
+Server online: 8854.88 ms, offline: 1910.64 ms
+Client data_gen: 200.206 ms
+Client online: 8865.45 ms, offline: 0.155992 ms
+AidServer online: 9417.71 ms, offline: 0.027437 ms
+Server data_gen: 221.601 ms
+Server online: 8797.76 ms, offline: 2545.38 ms
+Client data_gen: 184.198 ms
+Client online: 8807.96 ms, offline: 0.151649 ms
+AidServer online: 9463.61 ms, offline: 0.171589 ms
+Server data_gen: 219.583 ms
+Server online: 8823.75 ms, offline: 1331.6 ms
+Client data_gen: 143.871 ms
+Client online: 8833.9 ms, offline: 0.084009 ms
+AidServer online: 9499.39 ms, offline: 0.045805 ms
+Server data_gen: 193.727 ms
+Server online: 8812.21 ms, offline: 3096.28 ms
+Client data_gen: 220.353 ms
+Client online: 8821.97 ms, offline: 0.086499 ms
+AidServer online: 9568.75 ms, offline: 0.141016 ms
+Server data_gen: 182.731 ms
+Server online: 8904.88 ms, offline: 1447.39 ms
+Client data_gen: 131.086 ms
+Client online: 8915.03 ms, offline: 0.090932 ms
+AidServer online: 9573.99 ms, offline: 0.107184 ms
+Server data_gen: 183.933 ms
+Server online: 8722.85 ms, offline: 1700.19 ms
+Client data_gen: 133.266 ms
+Client online: 8732.75 ms, offline: 0.084314 ms
+AidServer online: 9329.57 ms, offline: 0.106869 ms
+Server data_gen: 177.807 ms
+Server online: 8632.82 ms, offline: 1455.09 ms
+Client data_gen: 135.003 ms
+Client online: 8649.57 ms, offline: 0.082458 ms
+AidServer online: 9625.13 ms, offline: 0.096521 ms
+Server data_gen: 153.849 ms
+Server online: 8837.86 ms, offline: 1490.57 ms
+Client data_gen: 122.184 ms
+Client online: 8848.49 ms, offline: 0.102844 ms
+AidServer online: 9713.39 ms, offline: 0.035408 ms
+Server data_gen: 164.007 ms
+Server online: 8956.75 ms, offline: 1751.74 ms
+Client data_gen: 111.73 ms
+Client online: 8969.67 ms, offline: 0.075034 ms
+AidServer online: 8874.59 ms, offline: 0.1192 ms
+Server data_gen: 175.462 ms
+Server online: 8468.96 ms, offline: 1295.77 ms
+Client data_gen: 205.749 ms
+Client online: 8478.95 ms, offline: 0.101576 ms
+AidServer online: 9452.41 ms, offline: 0.095985 ms
+Server data_gen: 183.809 ms
+Server online: 8629.18 ms, offline: 1516.8 ms
+Client data_gen: 165.096 ms
+Client online: 8640.91 ms, offline: 0.09186 ms
+AidServer online: 8163.84 ms, offline: 0.140296 ms
+Server data_gen: 390.359 ms
+Server online: 7674.12 ms, offline: 1267.99 ms
+Client data_gen: 33.7135 ms
+Client online: 7677.31 ms, offline: 0.122136 ms
+AidServer online: 7721.57 ms, offline: 0.024184 ms
+Server data_gen: 332.722 ms
+Server online: 7345.99 ms, offline: 1228.46 ms
+Client data_gen: 79.7616 ms
+Client online: 7350.75 ms, offline: 0.166109 ms
+AidServer online: 7901.27 ms, offline: 0.136636 ms
+Server data_gen: 330.508 ms
+Server online: 7213.78 ms, offline: 1019.52 ms
+Client data_gen: 113.116 ms
+Client online: 7217.1 ms, offline: 0.112172 ms
+AidServer online: 16068.1 ms, offline: 0.104893 ms
+Server data_gen: 534.286 ms
+Server online: 15732.1 ms, offline: 824.666 ms
+Client data_gen: 122.465 ms
+Client online: 15738.2 ms, offline: 0.166354 ms
+AidServer online: 15770.4 ms, offline: 0.027698 ms
+Server data_gen: 548.043 ms
+Server online: 15851.4 ms, offline: 675.093 ms
+Client data_gen: 82.878 ms
+Client online: 15859.6 ms, offline: 0.21273 ms
+AidServer online: 15591.8 ms, offline: 0.094662 ms
+Server data_gen: 528.369 ms
+Server online: 15795.5 ms, offline: 1083.63 ms
+Client data_gen: 84.6916 ms
+Client online: 15809.8 ms, offline: 0.257645 ms
+AidServer online: 16320.3 ms, offline: 0.103907 ms
+Server data_gen: 601.386 ms
+Server online: 16649.8 ms, offline: 1173.53 ms
+Client data_gen: 129.866 ms
+Client online: 16663.2 ms, offline: 0.257652 ms
+AidServer online: 15814.1 ms, offline: 0.027752 ms
+Server data_gen: 596.224 ms
+Server online: 15781.7 ms, offline: 820.805 ms
+Client data_gen: 83.3135 ms
+Client online: 15797.7 ms, offline: 0.197651 ms
+Server data_gen: 674.555 ms
+Server online: 14854.5 ms, offline: 842.454 ms
+Client data_gen: 161.629 ms
+Client online: 15124.4 ms, offline: 0.137063 ms
+AidServer online: 15944.4 ms, offline: 0.100875 ms
+Server data_gen: 674.726 ms
+Server online: 14061.9 ms, offline: 1308.11 ms
+Client data_gen: 234.271 ms
+Client online: 14382.8 ms, offline: 0.170914 ms
+AidServer online: 15483.4 ms, offline: 0.150192 ms
+Server data_gen: 744.804 ms
+Server online: 13899.4 ms, offline: 1026.33 ms
+Client data_gen: 128.522 ms
+Client online: 14159.5 ms, offline: 0.11937 ms
+AidServer online: 15140.8 ms, offline: 0.128526 ms
+Server data_gen: 686.353 ms
+Server online: 14195.5 ms, offline: 864.789 ms
+Client data_gen: 216.734 ms
+Client online: 14416.9 ms, offline: 0.122649 ms
+AidServer online: 15351.4 ms, offline: 0.047806 ms
+AidServer online: 16547.1 ms, offline: 0.031031 ms
+Server data_gen: 570.606 ms
+Server online: 16139.9 ms, offline: 902.999 ms
+Client data_gen: 134.818 ms
+Client online: 16148.9 ms, offline: 0.28479 ms
+AidServer online: 15088.8 ms, offline: 0.102355 ms
+Server data_gen: 555.161 ms
+Server online: 15473.3 ms, offline: 1082.89 ms
+Client data_gen: 145.148 ms
+Client online: 15490.1 ms, offline: 0.235882 ms
+AidServer online: 16752.1 ms, offline: 0.036982 ms
+Server data_gen: 585.348 ms
+Server online: 15541.4 ms, offline: 1751.41 ms
+Client data_gen: 71.8986 ms
+Client online: 15554.2 ms, offline: 0.212654 ms
+AidServer online: 15544.8 ms, offline: 0.099261 ms
+Server data_gen: 564.71 ms
+Server online: 15707.8 ms, offline: 844.946 ms
+Client data_gen: 88.6551 ms
+Client online: 15719.2 ms, offline: 0.254195 ms
+AidServer online: 16248.4 ms, offline: 0.033981 ms
+Server data_gen: 666.731 ms
+Server online: 16279 ms, offline: 1062.2 ms
+Client data_gen: 211.714 ms
+Client online: 16301.8 ms, offline: 0.114765 ms
+AidServer online: 15489.3 ms, offline: 0.05207 ms
+Server data_gen: 723.538 ms
+Server online: 16135.7 ms, offline: 729.47 ms
+Client data_gen: 204.791 ms
+Client online: 16158.2 ms, offline: 0.120747 ms
+AidServer online: 14697.2 ms, offline: 0.097312 ms
+Server data_gen: 580.513 ms
+Server online: 15345.2 ms, offline: 1083.43 ms
+Client data_gen: 114.153 ms
+Client online: 15352.8 ms, offline: 0.250918 ms
+AidServer online: 20465.5 ms, offline: 0.070432 ms
+Server data_gen: 2767.17 ms
+Server online: 18799.6 ms, offline: 0.12978 ms
+Client data_gen: 326.336 ms
+Client online: 18807.6 ms, offline: 1052.27 ms
+AidServer online: 19971.5 ms, offline: 0.038912 ms
+Server data_gen: 2669.54 ms
+Server online: 19625.8 ms, offline: 0.848849 ms
+Client data_gen: 330.35 ms
+Client online: 19638.6 ms, offline: 765.607 ms
+AidServer online: 19822 ms, offline: 0.036647 ms
+Server data_gen: 2690.42 ms
+Server online: 18407.3 ms, offline: 0.102267 ms
+Client data_gen: 265.216 ms
+Client online: 18415.6 ms, offline: 1217.14 ms
+Server data_gen: 385.354 ms
+Server online: 6196.02 ms, offline: 1110.69 ms
+Client data_gen: 139.888 ms
+Client online: 6329.14 ms, offline: 0.142187 ms
+AidServer online: 7171.29 ms, offline: 0.100447 ms
+Server data_gen: 425.125 ms
+Server online: 6187.04 ms, offline: 1129.29 ms
+Client data_gen: 94.6364 ms
+Client online: 6342.37 ms, offline: 0.067637 ms
+AidServer online: 7154.52 ms, offline: 0.142411 ms
+Server data_gen: 376.234 ms
+Server online: 6026.82 ms, offline: 1112.69 ms
+Client data_gen: 158.17 ms
+Client online: 6097.2 ms, offline: 0.081567 ms
+AidServer online: 6888.39 ms, offline: 0.059014 ms
+Server data_gen: 508.497 ms
+Server online: 7383.29 ms, offline: 999.362 ms
+Client data_gen: 200.186 ms
+Client online: 7465.56 ms, offline: 0.087155 ms
+AidServer online: 8282.07 ms, offline: 0.104591 ms
+AidServer online: 7270.54 ms, offline: 0.112454 ms
+Server data_gen: 353.915 ms
+Server online: 7071.96 ms, offline: 1126.11 ms
+Client data_gen: 85.6741 ms
+Client online: 7082.46 ms, offline: 0.094007 ms
+AidServer online: 8664.85 ms, offline: 0.133132 ms
+Server data_gen: 440.132 ms
+Server online: 8351.68 ms, offline: 991.349 ms
+Client data_gen: 225.038 ms
+Client online: 8392.79 ms, offline: 0.093098 ms
+AidServer online: 8441.75 ms, offline: 0.094882 ms
+Server data_gen: 381.765 ms
+Server online: 8139.01 ms, offline: 1024.55 ms
+Client data_gen: 178.223 ms
+Client online: 8167.45 ms, offline: 0.110653 ms
+AidServer online: 8811.78 ms, offline: 0.050741 ms
+Server data_gen: 390.818 ms
+Server online: 8433.16 ms, offline: 923.912 ms
+Client data_gen: 189.354 ms
+Client online: 8463.21 ms, offline: 0.124587 ms
+AidServer online: 8675.05 ms, offline: 0.096661 ms
+Server data_gen: 401.493 ms
+Server online: 8728.87 ms, offline: 1102.93 ms
+Client data_gen: 190.316 ms
+Client online: 8772.94 ms, offline: 0.090155 ms
+AidServer online: 8908.44 ms, offline: 0.06207 ms
+Server data_gen: 404.627 ms
+Server online: 8756.64 ms, offline: 1696.92 ms
+Client data_gen: 173.872 ms
+Client online: 8784.42 ms, offline: 0.103174 ms
+AidServer online: 9065.92 ms, offline: 0.102482 ms
+Server data_gen: 396.138 ms
+Server online: 8840.87 ms, offline: 1253 ms
+Client data_gen: 191.411 ms
+Client online: 8883.7 ms, offline: 0.155941 ms
+Server data_gen: 387.18 ms
+Server online: 6161.62 ms, offline: 1068.08 ms
+Client data_gen: 133.87 ms
+Client online: 6248.35 ms, offline: 0.124281 ms
+AidServer online: 6994.88 ms, offline: 0.066431 ms
+Server data_gen: 447.711 ms
+Server online: 7380.81 ms, offline: 953.576 ms
+Client data_gen: 194.754 ms
+Client online: 7534.17 ms, offline: 0.088918 ms
+AidServer online: 8340.63 ms, offline: 0.101746 ms
+Server data_gen: 459.109 ms
+Server online: 7527.15 ms, offline: 992.416 ms
+Client data_gen: 202.948 ms
+Client online: 7659.62 ms, offline: 0.112093 ms
+AidServer online: 8497.9 ms, offline: 0.098541 ms
+Server data_gen: 439.107 ms
+Server online: 7662.78 ms, offline: 1097.97 ms
+Client data_gen: 193.571 ms
+Client online: 7722.56 ms, offline: 0.243593 ms
+AidServer online: 8565.96 ms, offline: 0.148027 ms
+Server data_gen: 434.285 ms
+Server online: 7882.33 ms, offline: 1498.71 ms
+Client data_gen: 218.818 ms
+Client online: 7980 ms, offline: 0.104733 ms
+AidServer online: 8908.18 ms, offline: 0.042389 ms
+Server data_gen: 444.551 ms
+Server online: 6170.36 ms, offline: 1133.18 ms
+Client data_gen: 162.508 ms
+Client online: 6229.5 ms, offline: 0.100836 ms
+AidServer online: 7047.78 ms, offline: 0.090631 ms
+Server data_gen: 448.886 ms
+Server online: 6371.37 ms, offline: 827.708 ms
+Client data_gen: 117.236 ms
+Client online: 6594.32 ms, offline: 0.144009 ms
+AidServer online: 7280.95 ms, offline: 0.044836 ms
+Server data_gen: 388.474 ms
+Server online: 6308.52 ms, offline: 1214.71 ms
+Client data_gen: 160.963 ms
+Client online: 6435.67 ms, offline: 0.088051 ms
+AidServer online: 7298.55 ms, offline: 0.059884 ms
+AidServer online: 6922.48 ms, offline: 0.067938 ms
+Server data_gen: 395.589 ms
+Server online: 6310.85 ms, offline: 859.768 ms
+Client data_gen: 138.931 ms
+Client online: 6313.34 ms, offline: 0.079153 ms
+Server data_gen: 408.102 ms
+Server online: 6171.38 ms, offline: 1000.33 ms
+Client data_gen: 184.694 ms
+Client online: 6265.27 ms, offline: 0.095829 ms
+AidServer online: 7033.63 ms, offline: 0.068103 ms
+Server data_gen: 407.233 ms
+Server online: 6454.26 ms, offline: 882.95 ms
+Client data_gen: 147.427 ms
+Client online: 6668.91 ms, offline: 0.081035 ms
+AidServer online: 7380.72 ms, offline: 0.114156 ms
+Server data_gen: 478.103 ms
+Server online: 7716.07 ms, offline: 1736.93 ms
+Client data_gen: 225.252 ms
+Client online: 7801.22 ms, offline: 0.181858 ms
+AidServer online: 8703.52 ms, offline: 0.149812 ms
+Server data_gen: 485.788 ms
+Server online: 7521.49 ms, offline: 1347.56 ms
+Client data_gen: 245.09 ms
+Client online: 7614.65 ms, offline: 0.08114 ms
+AidServer online: 8770.38 ms, offline: 0.096769 ms
+AidServer online: 7989.21 ms, offline: 0.023402 ms
+Server data_gen: 524.637 ms
+Server online: 7186.83 ms, offline: 1140.61 ms
+Client data_gen: 181.197 ms
+Client online: 7190.57 ms, offline: 0.141842 ms
+AidServer online: 8915.57 ms, offline: 0.103801 ms
+Server data_gen: 596.091 ms
+Server online: 8449.13 ms, offline: 1019.65 ms
+Client data_gen: 233.539 ms
+Client online: 8458.41 ms, offline: 0.078188 ms
+AidServer online: 8966.18 ms, offline: 0.099676 ms
+Server data_gen: 527.315 ms
+Server online: 8388.35 ms, offline: 976.697 ms
+Client data_gen: 279.22 ms
+Client online: 8398.4 ms, offline: 0.078297 ms
+AidServer online: 9685.25 ms, offline: 0.055217 ms
+Server data_gen: 541.38 ms
+Server online: 8773.06 ms, offline: 1051.77 ms
+Client data_gen: 242.26 ms
+Client online: 8785.57 ms, offline: 0.107363 ms
+AidServer online: 9465.03 ms, offline: 0.020724 ms
+Server data_gen: 566.724 ms
+Server online: 8564.34 ms, offline: 954.108 ms
+Client data_gen: 247.242 ms
+Client online: 8576.01 ms, offline: 0.112261 ms
+AidServer online: 9872.49 ms, offline: 0.042161 ms
+Server data_gen: 494.401 ms
+Server online: 8826.39 ms, offline: 1266.71 ms
+Client data_gen: 257.24 ms
+Client online: 8838.7 ms, offline: 0.078839 ms
+AidServer online: 9146.48 ms, offline: 0.025549 ms
+Server data_gen: 1145.27 ms
+Server online: 8561.32 ms, offline: 483.396 ms
+Client data_gen: 138.664 ms
+Client online: 8563.96 ms, offline: 0.083921 ms
+AidServer online: 8664.94 ms, offline: 0.022139 ms
+Server data_gen: 1282.39 ms
+Server online: 8297.32 ms, offline: 171.67 ms
+Client data_gen: 125.011 ms
+Client online: 8301.53 ms, offline: 0.172179 ms
+AidServer online: 9041.23 ms, offline: 0.019559 ms
+Server data_gen: 1176.66 ms
+Server online: 8656.17 ms, offline: 194.428 ms
+Client data_gen: 136.548 ms
+Client online: 8659.89 ms, offline: 0.095219 ms
+AidServer online: 9127.47 ms, offline: 0.033432 ms
+Server data_gen: 1154.96 ms
+Server online: 8696.97 ms, offline: 298.114 ms
+Client data_gen: 111.371 ms
+Client online: 8699.47 ms, offline: 0.088662 ms
+AidServer online: 8604.63 ms, offline: 0.036058 ms
+Server data_gen: 1183.16 ms
+Server online: 8491.92 ms, offline: 132.274 ms
+Client data_gen: 103.994 ms
+Client online: 8495.07 ms, offline: 0.139831 ms
+AidServer online: 9528.82 ms, offline: 0.020334 ms
+Server data_gen: 1216.41 ms
+Server online: 8876.66 ms, offline: 512.511 ms
+Client data_gen: 167.529 ms
+Client online: 8879.27 ms, offline: 0.097282 ms
+AidServer online: 10665.8 ms, offline: 0.03183 ms
+Server data_gen: 1230.34 ms
+Server online: 10174 ms, offline: 546.845 ms
+Client data_gen: 211.762 ms
+Client online: 10194.5 ms, offline: 0.091115 ms
+AidServer online: 10446.8 ms, offline: 0.022185 ms
+Server data_gen: 1265.21 ms
+Server online: 10290.2 ms, offline: 230.381 ms
+Client data_gen: 235.435 ms
+Client online: 10302.4 ms, offline: 0.092327 ms
+AidServer online: 10987.2 ms, offline: 0.024193 ms
+Server data_gen: 1274.59 ms
+Server online: 10400.2 ms, offline: 557.353 ms
+Client data_gen: 341.251 ms
+Client online: 10415.2 ms, offline: 0.098519 ms
+AidServer online: 10791.7 ms, offline: 0.023649 ms
+Server data_gen: 1224.9 ms
+Server online: 10312.3 ms, offline: 299.483 ms
+Client data_gen: 200.976 ms
+Client online: 10331.6 ms, offline: 0.093556 ms
+AidServer online: 10674.4 ms, offline: 0.018199 ms
+Server data_gen: 1262.84 ms
+Server online: 10511.1 ms, offline: 24.5548 ms
+Client data_gen: 230.765 ms
+Client online: 10524 ms, offline: 0.082039 ms
+AidServer online: 10894.6 ms, offline: 0.023613 ms
+Server data_gen: 1272.73 ms
+Server online: 10615 ms, offline: 52.7287 ms
+Client data_gen: 216.958 ms
+Client online: 10628.2 ms, offline: 0.128353 ms
+AidServer online: 11261.1 ms, offline: 0.02094 ms
+Server data_gen: 1355.88 ms
+Server online: 11125.2 ms, offline: 0.068815 ms
+Client data_gen: 215.526 ms
+Client online: 11137 ms, offline: 45.0493 ms
+AidServer online: 10537.6 ms, offline: 0.021327 ms
+Server data_gen: 1399.29 ms
+Server online: 10081.9 ms, offline: 129.565 ms
+Client data_gen: 225.933 ms
+Client online: 10095.4 ms, offline: 0.151629 ms
+AidServer online: 8790.5 ms, offline: 0.049214 ms
+Server data_gen: 1479.19 ms
+Server online: 7969.35 ms, offline: 0.088841 ms
+Client data_gen: 262.685 ms
+Client online: 7971.56 ms, offline: 3.90498 ms
+Server data_gen: 1420.69 ms
+Server online: 8017.98 ms, offline: 392.899 ms
+Client data_gen: 291.208 ms
+Client online: 8021.74 ms, offline: 0.088939 ms
+AidServer online: 9002.43 ms, offline: 0.023802 ms
+Server data_gen: 1547.66 ms
+Server online: 9551.43 ms, offline: 0.135056 ms
+AidServer online: 10599.8 ms, offline: 0.024016 ms
+Client data_gen: 405.065 ms
+Client online: 9581.47 ms, offline: 46.8251 ms
+Server data_gen: 1683.28 ms
+Server online: 9761.21 ms, offline: 0.086307 ms
+Client data_gen: 380.924 ms
+Client online: 9907.56 ms, offline: 106.284 ms
+AidServer online: 11025.1 ms, offline: 0.035552 ms
+Server data_gen: 1525.02 ms
+Server online: 9850.41 ms, offline: 4.68724 ms
+Client data_gen: 399.668 ms
+Client online: 9896.55 ms, offline: 0.132725 ms
+AidServer online: 10873.8 ms, offline: 0.022905 ms
+Server data_gen: 1462.86 ms
+Server online: 9784.52 ms, offline: 0.096512 ms
+Client data_gen: 364.892 ms
+Client online: 9992.07 ms, offline: 84.8142 ms
+AidServer online: 10954.7 ms, offline: 0.025634 ms
+AidServer online: 11025.4 ms, offline: 0.036175 ms
+Server data_gen: 1567.92 ms
+Server online: 10106.2 ms, offline: 0.07664 ms
+Client data_gen: 396.829 ms
+Client online: 10116.1 ms, offline: 103.473 ms
+Server data_gen: 1604.4 ms
+Server online: 8214.52 ms, offline: 0.112084 ms
+Client data_gen: 369.089 ms
+Client online: 8311.11 ms, offline: 96.4577 ms
+AidServer online: 9352.03 ms, offline: 0.018831 ms
+Server data_gen: 1600.77 ms
+Server online: 8101.02 ms, offline: 0.080502 ms
+Client data_gen: 332.356 ms
+Client online: 8146.86 ms, offline: 93.983 ms
+AidServer online: 9172.09 ms, offline: 0.038033 ms
+Server data_gen: 1798.78 ms
+Server online: 9825.74 ms, offline: 0.067598 ms
+Client data_gen: 467.118 ms
+Client online: 9909.64 ms, offline: 190.043 ms
+AidServer online: 11145.8 ms, offline: 0.022136 ms
+AidServer online: 10555.5 ms, offline: 0.02039 ms
+Server data_gen: 1659.39 ms
+Server online: 9599.82 ms, offline: 484.872 ms
+Client data_gen: 462.295 ms
+Client online: 9611.87 ms, offline: 0.08366 ms
+Server data_gen: 1674.34 ms
+Server online: 9428.79 ms, offline: 138.636 ms
+Client data_gen: 542.082 ms
+Client online: 9542.03 ms, offline: 0.106723 ms
+AidServer online: 10716 ms, offline: 0.025329 ms
+AidServer online: 9447.79 ms, offline: 0.018971 ms
+Server data_gen: 1681.71 ms
+Server online: 8488.25 ms, offline: 0.076906 ms
+Client data_gen: 356.862 ms
+Client online: 8491.37 ms, offline: 177.531 ms
+AidServer online: 11242.5 ms, offline: 0.019336 ms
+Server data_gen: 1808.47 ms
+Server online: 10164 ms, offline: 0.119196 ms
+Client data_gen: 566.019 ms
+Client online: 10173.8 ms, offline: 22.5912 ms
+AidServer online: 11175.4 ms, offline: 0.019443 ms
+Server data_gen: 1753.95 ms
+Server online: 10116.8 ms, offline: 104.872 ms
+Client data_gen: 574.181 ms
+Client online: 10126.9 ms, offline: 0.160159 ms
+AidServer online: 10768.2 ms, offline: 0.023842 ms
+Server data_gen: 1740.4 ms
+Server online: 9955.09 ms, offline: 84.8821 ms
+Client data_gen: 520.733 ms
+Client online: 9965.24 ms, offline: 0.13912 ms
+AidServer online: 18939.4 ms, offline: 0.020972 ms
+Server data_gen: 4494.27 ms
+Server online: 15715.7 ms, offline: 0.091676 ms
+Client data_gen: 388.91 ms
+Client online: 15724.8 ms, offline: 2656.64 ms
+AidServer online: 18527.6 ms, offline: 0.026083 ms
+Server data_gen: 4675.18 ms
+Server online: 14957.2 ms, offline: 0.094837 ms
+Client data_gen: 378.814 ms
+Client online: 14962.8 ms, offline: 3133.67 ms
+AidServer online: 18545.6 ms, offline: 0.019179 ms
+Server data_gen: 4619.65 ms
+Server online: 15223.9 ms, offline: 0.111255 ms
+Client data_gen: 419.642 ms
+Client online: 15229.7 ms, offline: 2937.38 ms
+AidServer online: 19975.4 ms, offline: 0.021223 ms
+Server data_gen: 4806.3 ms
+Server online: 16189.5 ms, offline: 0.075116 ms
+Client data_gen: 448.376 ms
+Client online: 16194.9 ms, offline: 3158.7 ms
+AidServer online: 22445.7 ms, offline: 0.025498 ms
+Server data_gen: 4925.89 ms
+Server online: 18739.1 ms, offline: 0.076575 ms
+Client data_gen: 429.983 ms
+Client online: 18746.1 ms, offline: 3291.87 ms
+AidServer online: 20614.4 ms, offline: 0.053385 ms
+Server data_gen: 4642.81 ms
+Server online: 16893.2 ms, offline: 0.095783 ms
+Client data_gen: 552.785 ms
+Client online: 16921.5 ms, offline: 2893.2 ms
+AidServer online: 20399.8 ms, offline: 0.025916 ms
+Server data_gen: 4677.62 ms
+Server online: 16786.3 ms, offline: 0.071965 ms
+Client data_gen: 511.689 ms
+Client online: 16815.7 ms, offline: 3103.26 ms
+AidServer online: 21267.8 ms, offline: 0.021284 ms
+Server data_gen: 4870.23 ms
+Server online: 17498.9 ms, offline: 0.089121 ms
+Client data_gen: 548.358 ms
+Client online: 17528.5 ms, offline: 3224.65 ms
+AidServer online: 20890 ms, offline: 0.020597 ms
+Server data_gen: 4708.27 ms
+Server online: 17300 ms, offline: 0.097874 ms
+Client data_gen: 527.689 ms
+Client online: 17328.6 ms, offline: 3023.23 ms
+AidServer online: 23781.6 ms, offline: 0.021162 ms
+Server data_gen: 4951.37 ms
+Server online: 19780.4 ms, offline: 0.075989 ms
+Client data_gen: 569.039 ms
+Client online: 19811.7 ms, offline: 3017.29 ms
+Server data_gen: 5603.34 ms
+Server online: 16460.5 ms, offline: 0.065421 ms
+Client data_gen: 1074.68 ms
+Client online: 16501 ms, offline: 2757.25 ms
+AidServer online: 21535.7 ms, offline: 0.022224 ms
+Server data_gen: 5574.88 ms
+Server online: 16317.4 ms, offline: 0.078944 ms
+Client data_gen: 1176.76 ms
+Client online: 16506.7 ms, offline: 3278.8 ms
+AidServer online: 21570.5 ms, offline: 0.021831 ms
+Server data_gen: 5584.21 ms
+Server online: 15067.1 ms, offline: 0.072912 ms
+Client data_gen: 957.086 ms
+Client online: 15178 ms, offline: 3410.33 ms
+AidServer online: 20166.8 ms, offline: 0.050931 ms
+Server data_gen: 5766.73 ms
+Server online: 15489.9 ms, offline: 0.089975 ms
+Client data_gen: 988.577 ms
+Client online: 15594.8 ms, offline: 3632.24 ms
+AidServer online: 20768.8 ms, offline: 0.024455 ms
+Server data_gen: 5672.78 ms
+Server online: 14920.2 ms, offline: 0.079914 ms
+Client data_gen: 932.834 ms
+Client online: 15145 ms, offline: 3762.3 ms
+AidServer online: 20334.2 ms, offline: 0.020423 ms
+Server data_gen: 5667.31 ms
+Server online: 16675.1 ms, offline: 0.097128 ms
+Client data_gen: 980.456 ms
+Client online: 16873.7 ms, offline: 3638.12 ms
+AidServer online: 22032.3 ms, offline: 0.021636 ms
+Server data_gen: 5770.92 ms
+Server online: 17666.8 ms, offline: 0.085992 ms
+Client data_gen: 935.949 ms
+Client online: 17819.7 ms, offline: 3071.37 ms
+AidServer online: 22637.6 ms, offline: 0.026346 ms
+Server data_gen: 5825.68 ms
+Server online: 18224 ms, offline: 0.070928 ms
+Client data_gen: 1054.47 ms
+Client online: 18285.2 ms, offline: 3546.88 ms
+AidServer online: 23616.1 ms, offline: 0.020414 ms
+Server data_gen: 6317.26 ms
+Server online: 15192.7 ms, offline: 0.088216 ms
+Client data_gen: 1227.59 ms
+Client online: 15307.4 ms, offline: 3807.94 ms
+AidServer online: 20984.7 ms, offline: 0.026955 ms
+Server data_gen: 6167.14 ms
+Server online: 14876.2 ms, offline: 0.096017 ms
+AidServer online: 20535.7 ms, offline: 0.024861 ms
+Client data_gen: 1208.09 ms
+Client online: 14878.8 ms, offline: 3953.75 ms
+Server data_gen: 6048.47 ms
+Server online: 16123.6 ms, offline: 0.11654 ms
+Client data_gen: 1395.78 ms
+Client online: 16311.7 ms, offline: 3431.15 ms
+AidServer online: 21778.3 ms, offline: 0.020465 ms
+Server data_gen: 6287.33 ms
+Server online: 16149 ms, offline: 0.098722 ms
+Client data_gen: 1421.66 ms
+Client online: 16289.8 ms, offline: 3650.49 ms
+AidServer online: 21973.5 ms, offline: 0.049927 ms
+AidServer online: 21078.4 ms, offline: 0.041606 ms
+Server data_gen: 6576.95 ms
+Server online: 15549.7 ms, offline: 0.131351 ms
+Client data_gen: 1399.59 ms
+Client online: 15551.2 ms, offline: 4075.04 ms
+AidServer online: 22655.9 ms, offline: 0.036511 ms
+Server data_gen: 6478.15 ms
+Server online: 16936 ms, offline: 0.094091 ms
+Client data_gen: 1595.75 ms
+Client online: 16947.2 ms, offline: 3596.28 ms
+AidServer online: 22853 ms, offline: 0.01868 ms
+Server data_gen: 6635.43 ms
+Server online: 17038 ms, offline: 0.091284 ms
+Client data_gen: 1589.13 ms
+Client online: 17050.5 ms, offline: 3814.25 ms
+AidServer online: 23095 ms, offline: 0.024421 ms
+Server data_gen: 6668.31 ms
+Server online: 17698.7 ms, offline: 0.09353 ms
+Client data_gen: 1596.47 ms
+Client online: 17707.9 ms, offline: 3388.74 ms
+AidServer online: 25858.6 ms, offline: 0.026498 ms
+Server data_gen: 6875.59 ms
+Server online: 19769.1 ms, offline: 0.084412 ms
+Client data_gen: 1613.82 ms
+Client online: 19783.3 ms, offline: 4046 ms
+AidServer online: 7166.57 ms, offline: 0.102742 ms
+Server data_gen: 137.693 ms
+Server online: 6736.44 ms, offline: 1304.18 ms
+Client data_gen: 162.161 ms
+Client online: 6740.02 ms, offline: 0.146311 ms
+AidServer online: 6995.35 ms, offline: 0.107526 ms
+Server data_gen: 217.184 ms
+Server online: 6777.25 ms, offline: 1089.67 ms
+Client data_gen: 36.694 ms
+Client online: 6780.99 ms, offline: 0.103886 ms
+Server data_gen: 112.347 ms
+Server online: 6585.59 ms, offline: 1290.57 ms
+Client data_gen: 160.005 ms
+Client online: 6590.57 ms, offline: 0.132269 ms
+AidServer online: 7289.76 ms, offline: 0.103465 ms
+Server data_gen: 147.445 ms
+Server online: 6294 ms, offline: 1302.82 ms
+Client data_gen: 268.51 ms
+Client online: 6608.95 ms, offline: 0.114554 ms
+AidServer online: 7412.11 ms, offline: 0.055994 ms
+AidServer online: 8063.54 ms, offline: 0.101018 ms
+Server data_gen: 217.9 ms
+Server online: 7358.71 ms, offline: 1109.76 ms
+Client data_gen: 144.275 ms
+Client online: 7363.12 ms, offline: 0.098803 ms
+AidServer online: 7847.56 ms, offline: 0.118911 ms
+Server data_gen: 151.307 ms
+Server online: 7169.07 ms, offline: 1202.45 ms
+Client data_gen: 149.501 ms
+Client online: 7173.85 ms, offline: 0.098799 ms
+Server data_gen: 130.462 ms
+Server online: 7535.29 ms, offline: 1220.42 ms
+Client data_gen: 149.287 ms
+Client online: 7698.7 ms, offline: 0.100517 ms
+AidServer online: 8532.87 ms, offline: 0.099316 ms
+AidServer online: 8612.19 ms, offline: 0.098465 ms
+Server data_gen: 146.138 ms
+Server online: 7974.36 ms, offline: 1111.91 ms
+Client data_gen: 138.983 ms
+Client online: 7980.33 ms, offline: 0.089696 ms
+AidServer online: 9713.11 ms, offline: 0.162141 ms
+Server data_gen: 130.493 ms
+Server online: 7688 ms, offline: 2420.18 ms
+Client data_gen: 130.106 ms
+Client online: 7692.57 ms, offline: 0.200872 ms
+AidServer online: 8235.37 ms, offline: 0.139389 ms
+Server data_gen: 146.017 ms
+Server online: 7947.42 ms, offline: 1129.4 ms
+Client data_gen: 142.548 ms
+Client online: 7951.5 ms, offline: 0.169036 ms
+AidServer online: 7806.59 ms, offline: 0.033853 ms
+Server data_gen: 141.06 ms
+Server online: 7183.5 ms, offline: 1039.98 ms
+Client data_gen: 146.107 ms
+Client online: 7188.54 ms, offline: 0.739387 ms
+AidServer online: 8805.37 ms, offline: 0.105423 ms
+Server data_gen: 218.457 ms
+Server online: 8345.07 ms, offline: 1645.82 ms
+Client data_gen: 140.661 ms
+Client online: 8349.94 ms, offline: 0.147574 ms

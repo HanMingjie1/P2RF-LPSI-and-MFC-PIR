@@ -1,0 +1,2 @@
+/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CheckASM/CMakeFiles/edit_cache.dir
+/home/hmj/MFCPIR/DPFPSI-main/DPFPSI/build/CMakeFiles/CheckASM/CMakeFiles/rebuild_cache.dir
